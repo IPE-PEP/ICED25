@@ -19,3 +19,16 @@ Applied restrictions in Web of Science:
 - Document type: Limited to article, limited to proceeding paper
 - Language: English
 - Year: 2004 - 2024
+
+Inclusion criteria – The publication is included if…
+1 …it belongs to conference papers or journal articles.
+2 …it was published between 2004 and 2024.
+3 …it is written in English.
+4 …it focuses on the application of specific ML algorithms to solve product development-related problems.
+
+Exclusion criteria – The publication is excluded if…
+1 …it belongs to grey literature.
+2 …it does not focus on the application of ML algorithms.
+3 …it focuses exclusively on the use of optimization or non-ML-related algorithms.
+4 …it has no relation to product development.
+5 …it is not accessible.
