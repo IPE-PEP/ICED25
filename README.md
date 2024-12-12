@@ -8,10 +8,10 @@ This repository includes the following files, created as part of the publication
 3. **Created dataset (JSON)**
 
 ### Documentation of the systematic literature review (TXT)
-The literature review, conducted to identify publications addressing the application of machine learning (ML) algorithms to product development-related problems, followed the PRISMA 2020 guidelines. Detailed documentation of the review process is provided in the accompanying text file, which includes:
-- The definition of word groups and corresponding keywords
-- The search strings used
-- The inclusion and exclusion criteria applied
+The literature review, aimed at identifying publications that address the application of machine learning algorithms to product development-related problems, was conducted following the PRISMA 2020 guidelines. A detailed documentation of the review process is provided in the accompanying text file, which includes:
+- The definition of topic groups containing synonyms related to the subject, used as keywords
+- The search strings applied
+- The inclusion and exclusion criteria
 - The restrictions implemented in the Scopus and Web of Science databases during the search process
 
 ### Literature data (BibTeX Files)
