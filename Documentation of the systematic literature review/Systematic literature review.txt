@@ -1,0 +1,21 @@
+Topic: Product development
+Keywords: “design engineering“, “engineering design”, “product development”, "problem definition", "conceptual design", "embodiment design", "detailed design" 
+
+Topic: Machine learning
+Keywords: “machine learning”, “ml”, "artificial intelligence", "ai", "data science", "data mining", "data-driven", "supervised learning", "unsupervised learning", "reinforcement learning", "generative ai", "deep learning", "design automation", "data driven design"
+
+Search string: (“design engineering“ OR “engineering design” OR “product development” OR "problem definition" OR "conceptual design"  OR "embodiment design " OR "detailed design") AND (“machine learning ” OR “ml” OR "artificial intelligence" OR "ai" OR "data science" OR "data mining" OR "data-driven" OR "supervised learning" OR "unsupervised learning" OR "reinforcement learning"  OR "generative ai" OR "deep learning" OR "design automation" OR "data driven design")
+
+Applied restrictions in Scopus
+- Topic search: Title, abstract, keywords
+- Subject area: Engineering
+- Document type: Limited to article, limited to conference paper
+- Language: English
+- Year: 2004 - 2024
+
+Applied restrictions in Web of Science:
+- Topic search: Title, abstract, keywords, keywords+
+- Subject area: Engineering
+- Document type: Limited to article, limited to proceeding paper
+- Language: English
+- Year: 2004 - 2024

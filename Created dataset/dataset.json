@@ -1,0 +1,636 @@
+[
+    [
+        {
+            "product development-related problem formulation": "The consumer's green consumption practices and a set of factors, including cognitive and behavioral-level constructs that influence green consumption, should be explored. The aim is to predict green purchase intention and classify a consumer as green or non-green. A total of 310 responses were collected and need to be analyzed.",
+            "ML algorithm": "Decision Tree, Random Forest, Gradient Boosting, XGBoost, K-Nearest Neighbour, Support Vector Machine"
+        },
+        {
+            "product development-related problem formulation": "Nowadays, online community platforms provide firms with an important source of information for conducting dynamic marketing research. High-technology companies, in particular, rely heavily on lead users for the development of very novel products or easily adjustable services. Therefore, lead users and their needs should be systematically identified from a complex online community network. In addition, important features, perceptions, and preferences of different groups of lead users should be identified.",
+            "ML algorithm": "Classifikation: RF; Clustering: RSKC"
+        },
+        {
+            "product development-related problem formulation": "The objective is to transform the face of product development and marketing strategies within the mobile gadget industry. Customer requirements should be predicted with unprecedented accuracy by utilizing industry datasets of customer preferences, browsing histories, and market surveys.",
+            "ML algorithm": "LSTM, DT, RF, ANN"
+        },
+        {
+            "product development-related problem formulation": "Life cycle assessment (LCA) is a well-established approach and benchmark for design for sustainability efforts, in which detailed reports are produced that can serve as decision-making guides for developing new products. However, LCA reports are typically dense and technically complex, making it difficult for many engineering design project stakeholders to appropriately leverage the information found within them. The goal is to understand and enhance the transfer of knowledge from LCA reports in the early stages of the design process. Therefore, relevant design knowledge from LCA reports should be extracted.",
+            "ML algorithm": "GPT-4"
+        },
+        {
+            "product development-related problem formulation": "With drastic changes in technology and its converging power in new product development, technology convergence has long been considered imperative in the innovation literature. Despite these efforts, previous articles neglected the importance of technology convergence in identifying promising technologies. To address this limitation, this article assumes that patents with high mediating power for subsequent technology convergence are likely to be promising. For this purpose, this article proposes the concept of convergence distance, which is measured by the differences in IPCs in backward and forward citations ofpatents, and defines it as the mediating power of technology convergence. Three indicators are defined: convergence distance, convergence intensity, and convergence diversity. Using these convergence-related indicators, promising technologies should be predicted. ",
+            "ML algorithm": "DT, RF, XGB"
+        },
+        {
+            "product development-related problem formulation": "Quality Function Deployment (QFD) stands as a widely utilized toolkit in product development. It offers a systematic approach to analyze customer requirements (CRs) and convert them into engineering language for product design and production. By separating CRs and engineering characteristics (ECs), QFD ensures that the final product considers both technical aspects and customer usability. Despite its historical success, QFD encounters challenges in today's business landscape. The process is typically intricate, demanding in labor, and time-consuming. QFD teams, comprising customers, designers, engineers, marketing experts, and moderators, heavily rely on the experience and expertise of designers and engineers. Decision-making is integral to the QFD process, making it less adaptable to the current fiercely competitive and time-sensitive business environment. This paper introduces a streamlined QFD method, designed to automate the process rapidly and require fewer resources from companies. Leveraging extensive online product review text, our smart QFD method deduces the relationship between CRs and ECs. A method is searched to extract features for the CRs-ECs mapping, facilitating the QFD process. ",
+            "ML algorithm": "GCN"
+        },
+        {
+            "product development-related problem formulation": "Product development insights may be found through user reviews on App stores, product forums, and social media. This feedback is often regarded as the “voice of the users”. This feedback has been subject to a lot of recent research, intending to create systems that can automatically extract, filter, analyze, and report the concerned feedback data in near real time. As per our survey results, often this user feedbacks do not reach the concerned organization promptly due to the volume, veracity, and velocity offeedback frommultiple channels. In this researchwork, we propose using sentiment analysis and social media mining an automatic engine which can be used for better product recommendation and automatic routing of relevant feedback to the productdevelopment teams. A solution is sought to run at regular intervals, pulling dynamic reviews in an optimized manner with lower time complexity and higher efficiency. The reviews are collated from distributed platforms and must be classified according to the respective enterprises. A sentiment analysis method is needed that uses polarity to determine if the feedback is positive or negative.",
+            "ML algorithm": "RF, DT, MNB, KNN, SVM"
+        },
+        {
+            "product development-related problem formulation": "Traditional methods of Voice of Customer (VoC) extraction have typically fallen short in capturing the richness and nuance of customer sentiment. A superior solution is sought for extracting the VoC.",
+            "ML algorithm": "GPT-3.5 Turbo"
+        },
+        {
+            "product development-related problem formulation": "Understanding the perceptions of consumers is widely recognized as a critical element in the innovation of new products. Traditional techniques used by companies to collect essential consumer insights have largely remained unchanged. Common practices like interviews and surveys have distinct limitations. Interviews may not always capture the precise needs of consumers due to communication barriers, and surveys tend to encourage incremental changes rather than radical innovations. Service industries face further complexity as they navigate customer feedback on the more intangible aspects of service quality. The Voice of the Customer (VoC) should be extracted.",
+            "ML algorithm": "GPT-3.5 Turbo"
+        },
+        {
+            "product development-related problem formulation": "Aspect-Based Sentiment Analysis (ABSA) is essential in industries such as healthcare, automotive, and finance, where understanding customer feedback is crucial for business strategies and product development. Traditional sentiment analysis methods often fail to account for specific aspects, providing only generalized sentiment scores (polarities).  Therefore, a solution for accurately classifying aspect-based sentiment polarity is sought. Additionally, aspect-based sentiment polarity should be categorized as positive, negative, or neutral.",
+            "ML algorithm": "BERT"
+        },
+        {
+            "product development-related problem formulation": "CNH is a global capital goods company of more than 37000 vehicles cover a vast variety of employees, specializing in equipment and services for Agriculture and Construction. CNHi applications, operating conditions, and environments, making design for reliability one of the main objectives of the company. Warranty claims analysis is a key activity for product support and product development technicians. A widely used source of information is a set of documents, referred to as “Claim Comments” that are filled in by mechanics during repairs. Repair records include valuable information as failure modes descriptions, diagnosis and troubleshooting, potential causes, and other useful details. The information is then fed back for customer/field support and continuous product improvement. Claims details review is mostly executed manually, and engineers need to read thousands of lines each year. This task is constrained by human limitations - e.g., ability of consistently identifying failure modes and the limited number of documents that can be processed at once. A solution is sought to make the analysis of such massive documents more scalable and efficient. The analysis should not be limited to single word occurrences but should rely on the overall text context understanding.",
+            "ML algorithm": "BERT"
+        },
+        {
+            "product development-related problem formulation": "The gradual adoption of electric vehicles (EVs) globally serves as a crucial move toward addressing global decarbonization goals for sustainable development. However, the lack of costeffective, power-efficient, and safe chargers for EV batteries hampers adoption. Understanding the research needs and identifying the gaps in EV charger innovation informs investments and research to address development challenges. Therefore themes in EV charger technology and product development by analyzing U.S. patent award summaries should be classified.",
+            "ML algorithm": "LDA"
+        },
+        {
+            "product development-related problem formulation": "Eliciting informative user opinions from online reviews is a key success factor for innovative product design and development. The unstructured, noisy, and verbose nature of user reviews, however, often complicate large-scale need finding in a format useful for designers without losing important information. Recent advances in abstractive text summarization have created the opportunity to systematically generate opinion summaries from online reviews to inform the early stages ofproduct design and development. However, two knowledge gaps hinder the applicability of opinion summarization methods in practice. First, there is a lack of formal mechanisms to guide the generative process with respect to different categories ofproduct attributes and user sentiments. Second, the annotated training datasets needed for supervised training ofabstractive summarization models are often difficult and costly to create. These gaps should be addressed by (1) abstractive opinion summarization guided by specific product attributes and sentiment polarities, and (2) automatically generating a synthetic training dataset that captures various degrees of granularity and polarity.",
+            "ML algorithm": "T5"
+        },
+        {
+            "product development-related problem formulation": "New Product Development (NPD) is to stay competitive; it is seen as one of the finest techniques to cope with quick changes in the goods confronting the market. Researchers have adjusted the measurements to become some NPD so that research variables may impact the firm, but they have not attempted to measure. The measuring component is crucial to give proper control over product development operations. It will employ a web-based tool for monitoring the growth of NPD skills in the field area. If the organization has identified an essential mastering function, you may create long-term objectives. The the value of the capacity level as NPD should be suggested and the results of the NPD should be predicted based on the realationship between the selection of key metrics and the accumulation of factors contributing to success. ",
+            "ML algorithm": "NN"
+        },
+        {
+            "product development-related problem formulation": "Large-scale sale Prediction involves analyzing the sales based on client interests and needs. Analyzing the product's demand based on sales. This has further advantages for marketing and business, helping them to increase sales and productivity. To execute and forecast the sales, machine learning techniques were needed. Business intelligence is crucial for sales and product development. The forecasting of big-box store sales considers several variables, including historical sales data, consumer demographics, market trends, seasonal effects, promotional activities, and macroeconomic situations. The sales of new shop goods should be forecast.",
+            "ML algorithm": "LR, LRR, SVM, RF, DT"
+        },
+
+        {
+            "product development-related problem formulation": "The COVID-19 pandemic brought immense strain on global manufacturing, highlighting the critical importance of the Customer-to-Manufacturer (C2M) model. To effectively manage customer needs and support decisionmaking in product development, there is a need for active research and the provision of additional tools. Thus, we collected and analyzed online sales data and user reviews to offer realtime insights into consumer needs.  Product development directions should be identified to understand market demands, reduce the time required for research and development, and enhance overall product innovation efficiency by predicting Amazon consumer ratings. Through the integration of structured and unstructured data, valuable industry insights should be obtained, enabling businesses to understand consumer needs, discover market opportunities, and refine product specifications.",
+            "ML algorithm": "RF, MP, LightGBM, ParameterRange-LightGBM"
+        },
+        {
+            "product development-related problem formulation": "Requirements for complex technical systems are documented in natural language sources. Manually extracting requirements from these documents – e.g., to transfer them to a requirements management tool – is time-consuming and errorprone. Today, machine learning approaches are used to classify natural language requirements and thus enable extraction of these requirements. However, in practice there is often not enough labeled domain-specific data available to train such models. For this reason, requirements should be generated artificially.",
+            "ML algorithm": "GPT-J"
+        },
+        {
+            "product development-related problem formulation": "Recently, online user-generated data have been used as an efficient resource for customer analysis. In the product design area, various methods for analyzing customer preference for product features have been suggested. However, most of them focused on feature categories rather than product components which are crucial in practical applications. To address that limitation, this paper proposes a new methodology for extracting sub-features from online data. First, the phrases are detected in the data and filtered using product manual documents. The filtered phrases are embedded into vectors. A solution is sought to divide them into several groups.",
+            "ML algorithm": "HDBSCAN, spectral clustering"
+        },
+        {
+            "product development-related problem formulation": "The knowledge in specific domains like engineering design should be captured to generate summaries of a set of papers.",
+            "ML algorithm": "BERT"
+        },
+        {
+            "product development-related problem formulation": "Everything is becoming more mechanized in today's times, especially in this age of data. Data is the world's new electricity. Many firms can benefit from this information in their marketing efforts. Every company wanted to grow and be better than the competition, so they employed innovative ideas and invested in product development, but only to keep their customers and expand their market. Customers are segmented in today's commercial world. They analyze their consumers' behaviors and purchasing patterns and can assist them in generating profit. Customer segmentation refers to the process of categorizing a company's customers into groups based on their commonalities. Client segmentation is the process of determining how to interact with consumers in different groups to amplify the value of each customer to the company. A solution is sought to segment customers. The main goal is to cluster customers into various groups based on their behavior patterns.",
+            "ML algorithm": "Kmeans, Spectral clustering, Agglomerative Clustering, Gaussian Mixture Model-Based, DBSCAN"
+        },
+        {
+            "product development-related problem formulation": "Due to the dynamic and competitive market environment, it is widely recognized that the development of new products and processes has become the critical point of attention for many companies. The first step in the product development process is to define the nature and function of the product, which is to classify the new product. The traditional product classification process only focuses on the product and market, which is developed by designers on the basis of the products of past dynasties. This way is labor-consuming, inefficient, and has become a bottleneck or constraint for these enterprises to improve their productivities and regulate production. Therefore, the products should be classified fast and effective.",
+            "ML algorithm": "CNN"
+        },
+        {
+            "product development-related problem formulation": "Social media platforms are considered one of the most effective intermediaries for companies to interact with consumers. Social media-based decision support systems for the marketing domain are highly developed, but product development and innovation-oriented studies remain limited. This study offers a novel approach which utilises opinion retrieval theme along with sentiment analysis to support the decision-making process for product analysis and development. Therefore, the sentiment should be predicted and the opinion should be detected.",
+            "ML algorithm": "DNN"
+        },
+        {
+            "product development-related problem formulation": "The availability of social media-based data creates opportunities to obtain information about consumers, trends, companies and technologies using text-mining techniques. However, the quality of the data is a significant concern for social media-based analyses. The aim is to mine tweets (microblogs) to explore trends and retrieve ideas for various purposes, such as product development, technology, and sustainability-oriented considerations. Therefore, tweets that contain an idea must be identified.",
+            "ML algorithm": "SVM, LR"
+        },
+        {
+            "product development-related problem formulation": "Customer-to-manufacturer (C2M) is an emerging smart manufacturing strategy. In C2M, customers are directly connected with manufacturers for tailor-made product development and manufacturing. Thus, the R&D and marketing-driven process in traditional manufacturing evolves into a customer-driven product development process. Product sales using the C2M mode have been one of the highest growth sectors in Chinese ecommerce platforms. However, customers usually lack the necessary domain knowledge. They cannot communicate directly with engineers by indicating the desired technical specifications of the product. A semantic gap exists. This semantic gap should be addressed automatically. To mitigate the data sparsity issue in the customer needs domain, a massive amount of product review texts is used, which were crawled from e-commerce websites to build a source mapping from reviews to product technical specifications.",
+            "ML algorithm": "LSTM, BERT, CNN"
+        },
+        {
+            "product development-related problem formulation": "Decision-making on design features such as specifications and components is an essential aspect of new product development. Customers product preferences and their variations provide the basis of design features decision. Big data of product sales are an emerging source for the obtaining of customers preferences on product features. Customers' preferred product features and their combinations should be predicted based on the sales data. The physical feasibility of the product feature combinations is considered for customer preference analysis. Therefore, common and alternative designs of product features should be identified.",
+            "ML algorithm": "Knn (Cluster), ANN (Prediction)"
+        },
+        {
+            "product development-related problem formulation": "Creating product ecosystems has been one ofthe strategic ways to enhance user experience and business advantages. Among many, customer needs analysis for product ecosystems is one ofthe most challenging tasks in creating a successful product ecosystem from both the perspectives of marketing research and product development. Customer needs should be analyzed for product ecosystems by examining a large amount of online user-generated product reviews within the product ecosystem. A variety of topics regarding customer needs should be extracted.",
+            "ML algorithm": "LDA"
+        },
+        {
+            "product development-related problem formulation": "Analysis of warranty based big data has gained considerable attention due to its potential for improving the quality of products whilst minimizing warranty costs. Similarly, customer feedback information and warranty claims, which are commonly stored in warranty databases might be analyzed to improve quality and reliability and reduce costs in areas, including product development processes, advanced product design, and manufacturing. However, three challenges exist, firstly to accurately identify manufacturing faults from these multiple sources of heterogeneous textual data. Secondly, accurately mapping the identified manufacturing faults with the appropriate design information and thirdly, using these mappings to simultaneously optimize costs, design parameters and tolerances. Warranty databases, which collect warranty failure information from customers in a textual format, are analyzed. The information from the warranty database should be drawn and related to the manufacturing data.",
+            "ML algorithm": "SOM"
+        },
+        {
+            "product development-related problem formulation": "The increasing amounts of customer-generated content regarding a product or service published in Social Media are an important source of information for companies. Especially for product development projects or the design of service offers, the unbiased feedback expressed in so-called product reviews is most valuable. However, for the effective use of product review content, the development of automated text processing tools is essential; manual text processing approaches are very time-consuming and thus compromise the benefits provided from the extracted information. To date, automated text mining tools focus the analysis of customers preferences and emotions articulated within a product review. An automated extraction and analysis of customer-related content has not yet been investigated in detail. Customer-related content refers to information within a review, which does not primarily concern the product, but provide information about the customer himself, his usage behavior, personal environment and habits. This information is most generally expressed in an objective manner by the author (i.e. customer) and provides an authentic starting point for the identification of customer needs. Particularly for innovative product development, the consideration of customer habits and personal environment is highly relevant for the derivation of underlying needs, which can be more important than the knowledge of specific preferences regarding a product. Therefore, objective content should be extracted from product reviews. German reviews from Amazon.de regarding two product categories are collected and manually annotated for validation purposes.",
+            "ML algorithm": "NB, DT, SVM"
+        },
+        {
+            "product development-related problem formulation": "With the development of IoT techniques, it become easier to collect users’ action data. By analyzing and using those data, consumers and producers will mutually exchange their intelligence and better customize product development processes. Sensor shoes are used with several sensor devices embedded in the insoles, collecting action data of users, extracting their action features, and then issuing some advice to help users train more efficiently. Therefore, users' actions should be distinguished, and their action features should be extracted from the presented sensing data.",
+            "ML algorithm": "BPN + SOM"
+        },
+        {
+            "product development-related problem formulation": "In the big data era, firms are inundated with customer data, which are valuable in improving services, developing new products, and identifying new markets. Studies have investigated the specific benefits of applying data-driven methods in customer knowledge management, but failed to systematically investigate the specific mechanics of how firms realised these benefits. Customer knowledge should be linked with innovative product development in a data-driven environment. Customer needs should be identified to determine their preferences, enabling firms to develop the right products and gain competitive advantages.",
+            "ML algorithm": "DT"
+        },
+        {
+            "product development-related problem formulation": "Industrial Internet of Things (IoT) is a ubiquitous network integrating various sensing technologies and communication technologies to provide intelligent information processing and smart control abilities for the manufacturing enterprises. The aim of applying industrial IoT is to assist manufacturers manage and optimize the entire product manufacturing process to improve product quality and production efficiency. Performance analysis is an effective tool to identify whether the key performance have reached the requirements in data-driven product development. The existing performance analysis approaches mainly focus on the metamodel construction, however, the uncertainty and complexity in product development process are rarely considered. To address this gap, performance parameters must be forecasted with high accuracy within an industrial IoT environment to effectively support product developers.",
+            "ML algorithm": "LSSVR"
+        },
+        {
+            "product development-related problem formulation": "Voice of customer is typically captured through multiple connect points like surveys, warranty claims, social media, and so on. Customer verbatim is collected through these connect points to encourage free expression of opinion by customers. One of the challenges in analyzing unstructured verbatim data is to map that data onto appropriate concern codes (CCCs), which are typically used in automotive firms for tracking quality and satisfaction metrics. These concern codes map to a hierarchy of function areas in the organization aimed at improving product, service and hence the customer’s overall experience. Therefore, customer verbatim should be classified into concern codes.",
+            "ML algorithm": "SVM, NB"
+        },
+        {
+            "product development-related problem formulation": "The elicitation of customer needs (CNs) is a critical step in product development. However, these needs are often expressed in ambiguous, simple language and not in the form of well-defined specifications, causing a semantic gap in the product development process. Traditional methods to bridge the gap rely heavily on human action. Product development teams need to manually link CNs to product specifications in an ad hoc manner. This may be infeasible for large product variant spaces or evolving product families. For any new product variant, it is essential to accurately determine the customer needs that the variant can fulfill.",
+            "ML algorithm": "SVM, DT"
+        },
+        {
+            "product development-related problem formulation": "Since the first release of Apple iPad in April 2010, tablet computers (or simply tablets) can be viewed as a new category of technological products for general consumers. To compete in the evolving market, it is expected that the manufacturers need to customize the design of tablets to satisfy different needs of customers. To support product customization in this context, one specific challenge is that the customer information of tablets is relatively limited due to the newness of the product category. Online reviews, which contain valuable customer opinions about tablet products, should be analyzed. In this context, it is essential to investigate which tablet attributes are most desired by specific user groups.",
+            "ML algorithm": "Apriori algorithm"
+        },
+        {
+            "product development-related problem formulation": "A large portion of product innovation and development is accomplished by customers and only a small segment of the customer population engages in such innovation activities. Empirical research has shown that users in this subgroup, called lead users, tend to experience needs before the rest of the marketplace and stand to benefit greatly by finding solutions to those needs. Consequently, it is crucial to identify lead users quickly and effectively on the micro-blogging platform Twitter to uncover their innovative ideas.",
+            "ML algorithm": "C4.5 DT"
+        },
+        {
+            "product development-related problem formulation": "Customers prefer to purchase products with more features, but after using the products, they may become dissatisfied with the usability problems of the products. This phenomenon is called ‘‘feature fatigue’’. Thus it is imperative to analyze product usability in product definition stage. However, most traditional methods of usability evaluation are generally carried out using prototypes which are not available until in the later stage of product development. To address this challenge, massive online customer reviews of similar products and features can serve as a valuable data source. These reviews, readily accessible on the web, provide up-to-date insights into customer opinions on product usability. Therefore, it is essential to identify and analyze customer feedback on the usability of product features.",
+            "ML algorithm": "Apiori algorithm"
+        },
+        {
+            "product development-related problem formulation": "Many enterprises have been devoting a significant portion of their budget to product development in order to distinguish their products from those of their competitors and to make them better fit the needs and wants of customers. Hence, businesses should develop product designing that could satisfy the customers’ requirements since this will increase the enterprise’s competitiveness and it is an essential criterion to earning higher loyalties and profits. The following research issues in the development of new digital camera products should be investigated: (1) What exactly are the customers’ ‘‘needs’’ and ‘‘wants’’ for digital camera products? (2) What features is more importance than others? (3) Can product design and planning for product lines/product collection be integrated with the knowledge of customers? (4) How can the rules help us to make a strategy during we design new digital camera? Therefore, customer needs should be identified. ",
+            "ML algorithm": "Apriori algorithm, C5 DT"
+        },
+        {
+            "product development-related problem formulation": "Forecasting demand for new products is a challenging task, as it involves capturing relations of complex variables in markets where little or no historical data exist. Managers usually rely on surveys, intuition, and heuristics to forecast new products. Linear statistical tools used to predict demand for existing products are not suitable because there are not enough data to capture complex nonlinear relations in yet-to-be launched products. Other tools are appropriate for aggregate new categories but not for incremental company-specific products. Therefore, accurately forecasting the market share of complex, incremental new products is essential.",
+            "ML algorithm": "NN"
+        },
+        {
+            "product development-related problem formulation": "Working with information and knowledge is highly important in engineering design. Especially due to the continuous growth of information embedded in documents, the extraction process needs to be automated and accelerated. Hereby, engineering standards are an important source of knowledge in product development. However, the current way of working with these documents is inefficient and requires a lot of manual steps. Consequently, requirements should be automatically extracted from standards documents.",
+            "ML algorithm": "BERT, SVM, RF, NB"
+        }
+
+    ],
+    [
+        {
+            "product development-related problem formulation": "The product cost should be estimated for highly complex products with more than 2000 parts and hundreds of cost drivers, using data on the material cost of passenger cars. ",
+            "ML algorithm": "ANN, DT, ELNR, LAR, LSVR, GBR"
+        },
+        {
+            "product development-related problem formulation": "Since innovation in complex product design hinges on thorough engineering knowledge application, high-quality patent recommendations foster innovation in engineering design. However, many patent knowledge recommendation studies perform patent analysis without comprehensive exploration and proper organisation of knowledge, causing a superficial understanding of patents and returning arbitrary results. A four-dimensional patent knowledge model is defined to formalise the patent attributes that critically affect the engineering design outcomes, namely patents’ domain(D), function(F), technology(T) and citation(C). The patent knowledge should be exploited from its content and citation relationships. A patent knowledge space is established in which each patent is characterized by its function, technology, and citation embeddings.",
+            "ML algorithm": "BERT, GAT"
+        },
+        {
+            "product development-related problem formulation": "The cost should be estimated during the preliminary design phases. To train prediction models, comprehensive and structured datasets of historical data are required. This solution is inapplicable when such information is unavailable or sparse due to the lack of structured datasets. For engineered-to-order products, the number of historical records is often limited and strongly influenced by different purchasing or manufacturing strategies, thus requiring complex normalisation of such data. The aim is to perform cost modeling during the conceptual design even when historical data are insufficient to train the prediction algorithms. ",
+            "ML algorithm": "GLM, DL, DT, RF, GBT"
+        },
+        {
+            "product development-related problem formulation": "While the path synthesis of planar mechanisms is not a new problem, the effective representation of coupler curves has not been fully explored. The four commonly used features or representations of four-bar coupler curves are compared: Fourier descriptors, wavelets, point coordinates, and images. These diverse representations should be unified to generate dimensional parameters of four-bar linkage mechanisms.",
+            "ML algorithm": "VAE"
+        },
+        {
+            "product development-related problem formulation": "The management and controlling of product costs play an important role in the early stages of value creation, since 70 - 80 % final product costs are determined in product development and design processes. Traditionally, the focus in business practice is often on the organizational controlling unit that records the corresponding costs when they occur. In those, later phases of the product lifecycle, the possibilities of exerting influence are very limited. Consequently, an accurate estimation of costs in the early design phase is an important instrument to support strategic decisions in the product engineering process. Therefore the cost management should be supported in the early design stage by predicting the costs of product components.",
+            "ML algorithm": "LR, ANN, SVR"
+        },
+        {
+            "product development-related problem formulation": "Concept generation is a creative step in the conceptual design phase, where designers often turn to brainstorming, mind mapping, or crowdsourcing design ideas to complement their own knowledge of the domain. Solutions for a set of 12 design problems should be generated automatically.",
+            "ML algorithm": "GPT-3"
+        },
+        {
+            "product development-related problem formulation": "Contradictions caused by the various design constraints present increasing challenges to efficiency and innovation in product development. TRIZ provides Inventive Principles (IPs) and Contradiction Matrix that are the most frequently applied in conflict resolution. However, the high-level abstraction and subjective selection of IPs inhibit achieving the transformation process from paradoxical states to physical structures.  The non-linear relationships between engineering parameters and evolution patterns should be uncovered.",
+            "ML algorithm": "DNN"
+        },
+        {
+            "product development-related problem formulation": "Design knowledge in the vast amount of design reports and documents can be an excellent resource for designers in their practice. However, capturing such domain-specific information embedded in long-length unstructured texts is always time-consuming and sometimes tricky. Therefore, it is highly desirable for a computer system to automatically extract the main knowledge points and their corresponding inner structures from given documents. Therefore, design knowledge should be extracted from documents.",
+            "ML algorithm": "BERT"
+        },
+        {
+            "product development-related problem formulation": "Biological systems in nature have evolved for millions of years to adapt and survive the environment. Many features they developed can be inspirational and beneficial for solving technical problems in modern industries. This leads to a specific form of designby-analogy called bio-inspired design (BID). Although BID as a design method has been proven beneficial, the gap between biology and engineering continuously hinders designers from effectively applying the method. Therefore, biological analogy should be automatically retrieved and mapped to generate BID in the form of natural language.",
+            "ML algorithm": "GPT-3"
+        },
+        {
+            "product development-related problem formulation": "Early cost estimation is a decisive value driver in the product development process in manufacturing industries. The traditional cost calculation processes should be supported by estimating the product costs of circuit boards to be purchased.",
+            "ML algorithm": "CNN (erkennen) + MLP (estimation)"
+        },
+        {
+            "product development-related problem formulation": "Tire tread patterns have played an important role in the automotive industry because they directly affect automobile performances. The conventional tread pattern development process has successfully produced and manufactured many tire tread patterns. However, a conceptual design process, which is a major part of the whole process, is still time-consuming due to repetitive manual interaction works between designers and engineers. In the worst case, the whole design process must be performed again from the beginning to obtain the required results. Therefore, various tread patterns should be automatically generated that satisfy the target tire performances in the conceptual design process.",
+            "ML algorithm": "GAN"
+        },
+        {
+            "product development-related problem formulation": "The generation of conceptual design of product shapes in 3D meshes should be supported by generating a large number of novel 3D shapes and predicting a 3D shape based on a single silhouette sketch.",
+            "ML algorithm": "VAE"
+        },
+        {
+            "product development-related problem formulation": "Selecting an appropriate set of the initial parameter for the aircraft conceptual design phase has a huge effect on the overall design result of the aircraft. Therefore, estimating appropriate combinations of the initial design parameters is an essential step for obtaining feasible conceptual design results. Existing methods selected the initial parameters by using empirical formulas or adopting the empirical parameters. These methods have limitations in that the design results are highly dependent on the user’s experience and prior knowledge. Moreover, it is necessary to evaluate numerous empirical formulas to figure out the relationships between diverse combinations of variables. To overcome these limitations, this study applied data-driven machine learning techniques. The data-driven approach has advantages since it utilizes large, accumulated data and depends less on the user’s experience. The initial parameters of aircraft conceptual design should be estimated.",
+            "ML algorithm": "KNN, VAE, RF"
+        },
+        {
+            "product development-related problem formulation": "Nearly every artifact of the modern engineering design process is digitally recorded and stored, resulting in an overwhelming amount of raw data detailing past designs. Analyzing this design knowledge and extracting functional information from sets of digital documents is a difficult and timeconsuming task for human designers. For the case of textual documentation, poorly written superfluous descriptions filled with jargon are especially challenging for junior designers with less domain expertise to read. If the task of reading documents to extract functional requirements could be automated, designers could actually benefit from the distillation of massive digital repositories of design documentation into valuable information that can inform engineering design. The structured functional requirements should be extracted from textual design documents.",
+            "ML algorithm": "BERT"
+        },
+        {
+            "product development-related problem formulation": "The patent database is often used by designers to search for inspirational stimuli for innovative design opportunities because of the large size, extensive variety, and the massive quantity of design information contained in patent documents. Growing work on designby-analogy has adopted various vectorization approaches for associating design documents. However, they only focused on text analysis and ignored visual information. Research in engineering design and cognitive psychology has shown that visual stimuli may benefit design ideation. In this study, we focus on visual design stimuli and automatically derive the vector space and the design feature vectors representing design images. Therefore, the visual material-type and the international patent classification (IPC) section label should be predicted.",
+            "ML algorithm": "CNN"
+        },
+        {
+            "product development-related problem formulation": "Formalisation of heuristic methods for supporting the conceptual design stage of product and technology development has been extensively evolved in industry during the last half of the century and gradually more formally appears in academic context nowadays. Due to the considerable interest from the Industry and the Academia, heuristic approaches such as TRIZ have been strongly developed over the past decades. Thus, TRIZ evolved from a set of empirical inventive principles into a considerably formal approach including techniques for modeling technical problems with the possibility of further overcoming them using formal methods. Moreover, during the last decades, TRIZ has been extensively digitized. Several generations of software have appeared that facilitate the use of inventive methods (Goldfire, Invention Machine). Over 8 million patents and scientific publications should be analyzed to extract semantic concepts.",
+            "ML algorithm": "LDA"
+        },
+        {
+            "product development-related problem formulation": "Shorter development cycles and increasing product complexity are a major challenge within the product development. Furthermore, more engineering changes are taking up a high amount of development resources. Therefore, the identification of effort for engineering changes is important to identify necessary resources. Therefore, the effort of engineering change requests should be predicted.",
+            "ML algorithm": "RF"
+        },
+        {
+            "product development-related problem formulation": "The reuse of design knowledge within a specific domain is currently a major research focus in product design. However, the importance of support from cross-domain knowledge is steadily on the increase for product innovative design, which includes multi-domain knowledge recombination, transfer and transformation. As the biggest knowledge provider, patent information plays an irreplaceable role inspiring designers in the conceptual design stage. Nevertheless, it is of a great importance and also an issue to figure out how to efficiently retrieve cross-domain patents. In this paper, we propose a function-based patent knowledge retrieval tool for conceptual design of innovative products. In order to establish the underlying local database, function information, technical terms and International Patent Classification (IPC) information are respectively extracted from patents crawled on Websites to represent function, technology and domain properties, thereby generating a patent knowledge space. The function information should automatically be classified and labeled by functional basis, into which the design problem is abstracted and interpreted, forming a design problem space. By functional basis mapping from the design problem space to the patent knowledge space, the required cross-domain patents are retrieved, which should then be clustered and evaluated in accordance with the extracted technology and domain properties.",
+            "ML algorithm": "NB + Kmeans"
+        },
+        {
+            "product development-related problem formulation": "The critical success factors for new product development are identified on the basis of information acquired from an enterprise system, including the fields of sales and marketing, project management, and production. The model of new product screening consists of enterprise functional domains and business information systems. The model has been described in terms of a constraint satisfaction problem (CSP) that contains a set of decision variables, their domains, and the constraints. Knowledge base is specified according to CSP framework and it reflects the company’s resources and relationships identified. The success of new products should be estimated.",
+            "ML algorithm": "NN"
+        },
+        {
+            "product development-related problem formulation": "Rapid design support to generate or develop novel designs covering multiple object categories should be achieved. Therefore, the Princeton Model-Net40 database, a comprehensive clean collection of 3D CAD models for objects, should be utilized.",
+            "ML algorithm": "VAE"
+        },
+        {
+            "product development-related problem formulation": "Visual analogy has been recognized as an important cognitive process in engineering design. Human free-hand sketches provide a useful data source for facilitating visual analogy. Although there has been research on the roles of sketching and the impact of visual analogy in design, little work has been done aiming to develop computational tools and methods to support visual analogy from sketches. Therefore, the visual similarity between sketches should be discovered, considering the following practical application: Given a sketch drawn by a designer that reflects the designer's rough idea, the goal is to identify the similar shape sketches that can stimulate the designer to make more and better visual analogies. The first challenge in doing so is to discover the similar shape features embedded in sketches from various categories.",
+            "ML algorithm": "DEC, CNN+K-means"
+        },
+        {
+            "product development-related problem formulation": "During the design process, designers must satisfy customer needs while adequately developing engineering objectives. Among these engineering objectives, human considerations such as user interactions, safety, and comfort are indispensable during the design process. Nevertheless, traditional design engineering methodologies have significant limitations incorporating and understanding physical user interactions during early design phases. For example, Human Factors methods use checklists and guidelines applied to virtual or physical prototypes at later design stages to evaluate the concept. As a result, designers struggle to identify design deficiencies and potential failure modes caused by user-system interactions without relying on the use of detailed and costly prototypes. Therefore, the relationships between components, functions, flows, and user interactions should be explored. Design information related to components, functions, flows, and user interactions from a set of distinct coffee makers found in the Design Repository should be extracted to create association rules.",
+            "ML algorithm": "Apriori algorithm"
+        },
+        {
+            "product development-related problem formulation": "Ideation is a source of innovation and creativity, and is commonly used in early stages of engineering design processes. A semantic ideation network is created to provoke new ideas by mining potential knowledge connections across multiple knowledge domains. Based on that, images that synthesize two distinct concepts should be created.",
+            "ML algorithm": "GAN"
+        },
+        {
+            "product development-related problem formulation": "Computational methods for kinematic synthesis ofmechanisms for motion generation problems require input in the form of precision positions. Given the highly nonlinear nature ofthe problem, solutions to these methods are overly sensitive to the input—a small perturbation to even a single position ofa given motion can change the topology and dimensions ofthe synthesized mechanisms drastically. Thus, the synthesis becomes a blind iterative process of maneuvering precision positions in the hope of finding good solutions. Therefore, the uncertain user input should be managed, and missing information required by the computational algorithms should be imputed.",
+            "ML algorithm": "VAE"
+        },
+        {
+            "product development-related problem formulation": "During the initial stages of design, it is critical to conduct design space exploration studies and evaluate the design solutions against given criteria. These criteria correspond to the goals that the current design needs to achieve. When there is high dimensionality, the design space becomes very large which is hard to evaluate comprehensively. Hence, instead of searching the entire design space, multiple clusters should be obtained based on the design performance objectives. By exploring only the subsets of the design space, the computational cost is reduced, making the design space exploration faster. As a use case, the conceptual design of turbofan engines should be illustrated, as propulsion design necessitates high-dimensional design input. Initial sampling should be performed using the design of experiments approach, after which the design space should be clustered based on specific fuel consumption at cruise and engine weight. Both design performance parameters should be minimized to achieve the optimal design point. The best cluster is chosen and regarded as the new space to be explored.",
+            "ML algorithm": "kmeans"
+        },
+        {
+            "product development-related problem formulation": "Design space mappings can be used to inform early-stage design exploration, provide reliability assessments, and aid convergence in multi-objective or multi-level problems that require collaborative design teams. However, the accuracy of the mappings can vary based on problem factors such as the number of design variables, presence of discrete variables, multimodality of the underlying response function, and amount of training data available.  Engineering design exploration and optimization problems should be solved.",
+            "ML algorithm": "GNB, RF, SVM, NN"
+        },
+        {
+            "product development-related problem formulation": "Usage data should be fed back to the early design stage and used to populate value models to reduce the uncertainty in engineering design decision making. The development of a new machine for construction equipment, a wheel loader, is the subject of the demonstration, where a dataset based on machine performance, as well as contextual and environmental data, is provided. The fuel consumption of different design concepts and the analysis of performance variations resulting from a change in a contextual or environmental variable should be estimated.",
+            "ML algorithm": "MLR, KNN, RF"
+        },
+        {
+            "product development-related problem formulation": "Concept clustering is an important element of the product development process. The process of reviewing multiple concepts provides a means of communicating concepts developed by individual team members and by the team as a whole. Clustering, however, can also require arduous iterations and the resulting clusters may not always be useful to the team. Natural language-based descriptions of concepts should be grouped. Data from over 1,000 concepts generated by student teams in a graduate new product development class are available. The goal is to support design teams in identifying possible areas of 'over-clustering' and/or 'under-clustering' in order to enhance divergent concept generation processes.",
+            "ML algorithm": "HC"
+        },
+        {
+            "product development-related problem formulation": "To support the knowledge discovery and decision making from large-scale, multi-dimensional, continuous data sets, novel systems of visual analytics need the capability to identify hidden patterns in data that are critical for in-depth analysis.  A system for engineering designers to handle overwhelming information, such as numerous design alternatives generated from automatic simulation software, should be created. During the exploration of a 'trade space' consisting of possible designs and potential solutions, engineering designers should be able to analyze the data, discover hidden patterns, and identify preferable solutions.",
+            "ML algorithm": "DT + HC"
+        },
+        {
+            "product development-related problem formulation": "Most engineering project classes expect teams of students to collaborate and to build on existing knowledge to accomplish their project goals. As the project evolves, the team is expected to develop a shared understanding. However, students often become overwhelmed by the amount of information available and lose sight of the big picture. Instructors may also find it difficult to keep track of individual and team activities and are often forced to evaluate the product instead of the learning process. Therefore, conceptual maps from the team's evolving set of documents and discussions about an engineering artifact should be extracted. The information should be used to build a navigable web-based graph. Both instructors and students should be able to browse this graph interactively to explore the concepts embedded in design team documents and the connections between them.",
+            "ML algorithm": "LDA + HC"
+        },
+        {
+            "product development-related problem formulation": "Quality function deployment (QFD) is a proven useful methodology in new product development to satisfy customer requirements (CRs). House of quality (HoQ), the general implementing mode of QFD, is aimed to identify the variables of engineering characteristics (ECs) based on the relationships between CRs and ECs. Traditionally, the establishment of these relationships is mainly dependent on the designers’ experience and then the HoQ included many items difficult to handle.  To address this issue, potentially useful rules reflecting these relationships should be extracted based on three objectives: support, confidence, and interestingness.",
+            "ML algorithm": "Apriori algorithm"
+        },
+        {
+            "product development-related problem formulation": "The formulation of a product portfolio requires extensive knowledge about the product market space and also the technical limitations of a company’s engineering design and manufacturing processes. A design methodology is presented that significantly enhances the product portfolio design process by eliminating the need for an exhaustive search of all possible product concepts. A set of product concepts should be generated and subsequently validated in the engineering design phase using multilevel optimization techniques. A customer dataset containing 40,000 responses with 576 unique attribute combinations, representing the entire set of possible product concepts, is available.",
+            "ML algorithm": "DT"
+        },
+        {
+            "product development-related problem formulation": "Dynamic computer based support tools for the conceptual design phase have provided a long-standing challenge to develop. This is largely due to the ‘fluid’ nature of the conceptual design phase. Design evaluation methods, which form the basis of most computer design support tools, provide poor support for multiple outcomes. The causal relationships between design variables should be represented more effectively.",
+            "ML algorithm": "BBN"
+        },
+        {
+            "product development-related problem formulation": "Product concept generation and evaluation are two major activities for obtaining an optimal concept in conceptual design. Based on the evaluation of a set of satisfactory concepts, decision-making processes should be applied to select the optimal concept.",
+            "ML algorithm": "ANN"
+        },
+        {
+            "product development-related problem formulation": "In mass customization, data mining can be used to extract valid, previously unknown, and easily interpretable information from large product databases in order to improve and optimize engineering design and manufacturing process decisions. A product family is a group of related products based on a product platform, facilitating mass customization by providing a variety of products for different market segments cost-effectively. Design knowledge rules, based on product functions, should be developed and clustered according to their similarity in functional features.",
+            "ML algorithm": "Apriori algorithm +  Fuzzy C"
+        },
+        {
+            "product development-related problem formulation": "The selection of a product variant, designated as the starting point for adaptive product development, should be optimized based on predefined requirements. Emphasis is placed on linguistic formalisation in order to detect identical requirements and on quantification of the requirements, which is mandatory.",
+            "ML algorithm": "SOM"
+        },
+        {
+            "product development-related problem formulation": "Research in engineering design, integrating artificial intelligence (AI) into computer-aided design (CAD) and computer-aided engineering (CAE), is actively underway. 3D CAD designs should be automatically generated and evaluated based on their performance during the conceptual design phase.",
+            "ML algorithm": "cAE"
+        },
+        {
+            "product development-related problem formulation": "Since the optimal designs for multiphysics problems often involve a combination of features found in single-physics solutions, the feasibility of learning the optimal design from these single-physics solutions should be investigated in order to generate concept designs for problems governed by a combination of these individual physics. Therefore, optimal topologies, similar to the results of level set topology optimization (LSTO), should be created. ",
+            "ML algorithm": "GAN"
+        },
+        {
+            "product development-related problem formulation": "An innovative design using a novel one-iteration compliant mechanism approach, which triggers progressive folding even on irregular structures under oblique impact, has been created. The conceptual designs should be segmented into several groups.",
+            "ML algorithm": "Kmeans"
+        }
+    ],
+    [
+        {
+            "product development-related problem formulation": "The initial concept of an Unmanned Aerial Vehicle (UAV) design is complicated and unique due to performance parameters like payload capacity, engine power, endurance, service altitude, etc. required to perform a wide range of missions. Empirical correlations between key design parameters can approximate initial characteristics but to explore the entire design space while considering sensitivities of interacting parameters, comprehensive, time consuming and computationally expensive trade-off studies are required to converge the early concept appraisal. The UAV design parameters should be estimated rapidly and accurately in the conceptual phase by extracting knowledge from UAVs already in service.",
+            "ML algorithm": "MLR, SVR, RFR, NKK, MLP"
+        },
+        {
+            "product development-related problem formulation": " Despite the cost estimationmethods proposed in the literature, their application in specific real industrial contexts (e.g., engineered-to-order products) is minimal. Cost models should be generated that can be used while configuring the gas-turbine cross-section.",
+            "ML algorithm": "GLM, DL, DT, RF, GBT"
+        },
+        {
+            "product development-related problem formulation": "Environmental managers attempt to increasingly incorporate precautionary principles into decision making.   proposes a electric vehicle design should be supported. Life Cycle Assessment (LCA) should be performed to provide quantitative results from little inputs. Design features of a generic electric vehicle (such as vehicle mass and distance traveled) in six phases (Problem Definition; Data Collection; Data Preparation; Modeling; Model Evaluation; Model Interpretation) should be considered.",
+            "ML algorithm": "GLM, DL, DT, RF, GBT"
+        },
+        {
+            "product development-related problem formulation": "The topology optimization should be assisted by predicting the final optimization result (which is usually obtained through hundreds of redesign and trial-error iterations) from only a few initial redesign iterations. The topological configurations from the initial redesign steps should serve as input and should yield the optimal configuration.",
+            "ML algorithm": "INN"
+        },
+        {
+            "product development-related problem formulation": "The aim is to improve the mechanical properties of 3D concept designs. 3D models with improved mechanical properties should be generated.",
+            "ML algorithm": "GAN"
+        },
+        {
+            "product development-related problem formulation": "Existing models have demonstrated effectiveness in learning compact and expressive design representations that significantly improve geometric design optimization. However, these models do not consider the uncertainty introduced by manufacturing or fabrication. The past work that quantifies such uncertainty often makes simplifying assumptions on geometric variations, while the “real-world,”“free-form” uncertainty and its impact on design performance are difficult to quantify due to the high dimensionality.  A single solution is sought to (1) build a universal uncertainty quantification model compatible with both shape and topological designs, (2) model free-form geometric uncertainties without the need to make any assumptions on the distribution of geometric variability, and (3) allow fast prediction of uncertainties for new nominal designs.",
+            "ML algorithm": "GAN"
+        },
+        {
+            "product development-related problem formulation": "In engineering design, origami structures are frequently characterized by their geometry-shifting behavior, mechanical properties, lightness, and appealing aesthetic qualities. In particular, conical origami structures have attracted increasing attention in recent years owing to their excellent energy absorption performance. However, designing conical structures with customizable geometry and folding morphology has remained a less explored research area. The customizable design of conical origami structures should be supported. To this end, first, the geometric relationships between the 2D crease patterns and 3D structures have been derived to determine the critical parameters. Subsequently, the relationship between these critical parameters to facilitate the parametric design of conical origami structures should be predicted.",
+            "ML algorithm": "NN"
+        },
+        {
+            "product development-related problem formulation": "Nature has undergone millions of years of evolution, enabling organisms to adapt and survive in their environment. The remarkable features developed by these organisms serve as a rich source of inspiration for designers involved in engineering design. However, the effective application of bio-inspired design faces challenges due to the gap between biology and engineering, as well as the limited level of design automation. Innovative designs shoulde be automatically produced  by synthesizing a diverse range of natural designs. The process of constructing a dataset involves web crawling data from various sources, followed by data preprocessing to ensure clarity. The data is then structured with prior knowledge from the biological domain and outliers are excluded. Finally, design knowledge is extracted through data mining and knowledge extraction techniques. A bird flapping wing shape design should be created using a bird wing dataset created with a strong foundation in biological domain knowledge.",
+            "ML algorithm": "GAN"
+        },
+        {
+            "product development-related problem formulation": "Predicting the total manufacturing costs of a new product early in its development is an obstacle for many businesses, especially when selecting between different product designs and their cost implications. Typically, material costs comprise a large part of total manufacturing costs, and therefore obtaining an early estimate of material costs can help businesses in predicting the total manufacturing costs more accurately. At the early stage of product development, with many imponderables and frequent design modifications, it would be impractical to obtain quotations from suppliers.Therefore, the material costsshould be estimated to guide alternative product design choices that yield a lower total manufacturing cost.",
+            "ML algorithm": "kmeans + NN"
+        },
+        {
+            "product development-related problem formulation": "With the continual innovation of technology and product design methods, consumer needs change, and there is a gradual shift in product development from a function-oriented to consumer-oriented approach. The transformation of consumer perceptions into product design elements has become the focus of designers. An automated design generation system for product forms, which assists product designers to rapidly incorporate the consumer perceptions on the product form into the design process should be developed. Aquestionnaire is given to the participants for selecting the top six subjective terms perceived by consumers in car styling. Further, 1006 car side views are scored on the six Kansei characteristics using a semantic differential scale. The results have to be clustered and analyzed. Subsequently, the clusters are applied as training datasets to generate antagonistic data to support the design process.",
+            "ML algorithm": "Fuzzy cmeans + GAN"
+        },
+        {
+            "product development-related problem formulation": "The consideration of sustainability aspects in initial stages of product development is understood as an effective approach to plan a sustainable product life cycle. It can be achieved by integrating the sustainability considerations into decision making of companies in early design phases. Designers should be assisted in their decision-making to choose environmentally benign design parameters for products. The life cycle design parameters (e.g., size of product, density of material, manufacturing process, transport mode, and recyclability) should serve as inputs, where the corresponding outputs are provided in terms of the ‘carbon footprint’ and ‘life cycle cost’ of a product.",
+            "ML algorithm": "ANN"
+        },
+        {
+            "product development-related problem formulation": "Limiting global warming’s effects requires a sudden reduction of greenhouse gas emissions to pursue a net-zero carbon growth in the next decades. Along with this energy transition, drastic and rapid changes in demand are expected in many sectors, including the one for centrifugal compressors. In this context, new aerodynamic design processes exploiting the know-how of existing impeller families to generate novel centrifugal compressors could quickly react to demand variations and ensure companies’ success. Modifying the characteristics of existing compressors using a 1D singlezone model is a fast way to exploit this know-how. The relationships between geometrical parameters and performance should be highlighted, thus facilitating the achievement of optimized machines for new applications and the design of new impellers from pre-engineered ones.",
+            "ML algorithm": "ANN"
+        },        
+        {
+            "product development-related problem formulation": "An accurate forecast of the final manufacturing costs in the early product development phase is a key element, especially in mechanical engineering. An accurate and reliable prediction allows, on the one hand, estimating the economic feasibility and, on the other hand, deriving necessary cost reductions. It is essential to evaluate and monitor compliance with the cost target initially and throughout the entire development process. Most cost estimation methods are primarily based on simple heuristic and statistical approaches that provide only limited accurate predictions in the early development phase. Sufficiently precise cost estimations, especially for customer-specific developments, are only possible in the late phase of the development process using finely parameterized models and cost rates at the component level. The manufacturing costs in mechanical engineering in the early phase of product development should be predicted.",
+            "ML algorithm": "KNN, LR, RF, SVR, DT"
+        },       
+        {
+            "product development-related problem formulation": "Many works based on case-based reasoning (CBR) and rule-based reasoning (RBR) have been done to obtain a product concept intelligently, but researches on automatic and intelligent methods for the detailed design process are still lacking. To achieve the intelligent design of the whole process for mechanical product development, a method based on cases and knowledge has been created. First, considering that the actual product cases sample is small, correlations among product features and relationships between product features and requirements are evaluated based on design knowledge. According to these correlations and relationships, a design problem is decomposed into multiple parallel small-scale sub-problems not only to increase data samples but reduce data dimensions. Moreover, a hybrid method that combined Hamming distance with Euclidean distance is generated to retrieve similar cases, which can address both numerical and encoding factors. The classification and numeric parameters should be adapted so that the detailed design process can be achieved without a fixed knowledge template.",
+            "ML algorithm": "KNN + LR"
+        },        
+        {
+            "product development-related problem formulation": "Product development is a highly complex process that has to be individually adapted depending on the companies involved, the product to be developed and the related designers. Within this process, the approach and the know-how of the designer are very individual and can often only be described with high effort in a rule-based manner. Nevertheless, numerous routine tasks can be identified that offer enormous automation potential. Point Clouds are a universal representation of 3D objects and can be derived from various 3D data formats. Design patterns specific to a product family should be identified from their underlying latent representation. This knowledge should be used to automatically generate new latent object representations that fulfill distinct product feature specifications.",
+            "ML algorithm": "GAN"
+        },        
+        {
+            "product development-related problem formulation": "Engineering competence and the digitization of all processes along the product development process are highly decisive for today’s success of industrial companies. The design process is very individual and strongly based on design engineers’ experience. Part of this knowledge and the result of the design approach are fixated in the existing variations of the product generations, but are difficult to extract and to formalize. Conclusions about design-related patterns between products of different generations or variants can be drawn from the model tree representing the design engineer's thinking process for each individual CAD model. However, the model tree has hardly been used so far. The aim is to examine whether there exist any common design patterns between CAD models of certain component classes through the exemplary use case in the area of mechanical engineering. Therefore, patterns and knowledge should be extracted from complex data sets. Based on the learned patterns, meaningful next design steps should be proposed.",
+            "ML algorithm": "RNN_LSTM"
+        },        
+        {
+            "product development-related problem formulation": "Today, companies are faced with the challenge to develop and produce individualized products in the shortest possible time at very low cost in order to remain attractive under strong competitive pressure. For reasons of efficiency, products are therefore often developed in generations. Proven components are adopted in a new product generation and only some of the components are newly developed to meet new customer requirements. Many companies, therefore, have a large database of 3D CAD product models containing years of engineering experience. Nevertheless, it is often difficult to execute database queries to find which products or components already exist and could be reused or adapted for a new product generation or variant. As a result, many duplicates are created, which are associated with high effort and costs, and the risk of introducing design errors increases. The aim is to perform geometric similarity search that also takes company-specific features of components into account. For this purpose, class-specific feature vectors should be extracted. ",
+            "ML algorithm": "AE"
+        },        
+        {
+            "product development-related problem formulation": "The high computational cost of topology optimization has prevented its widespread use as a generative design tool. The topology optimization should be accelerated without sacrificing its accuracy.",
+            "ML algorithm": "DNN"
+        },        
+        {
+            "product development-related problem formulation": "Structural engineering designs should be investigated to determine optimum design variables, and then to estimate design parameters and the main objective function of the designs directly, speedily, and effectively.",
+            "ML algorithm": "ANN"
+        },        
+        {
+            "product development-related problem formulation": "Novel high-quality designs with good coverage of the design space should be generated.",
+            "ML algorithm": "GAN"
+        },        
+        {
+            "product development-related problem formulation": "The probability of constraint satisfaction in the context of reliability-based design optimization of complex systems, such as an aircraft, should be computed. Therefore, the corresponding probabilities for the constraint satisfaction should be predicted.",
+            "ML algorithm": "ANN"
+        },        
+        {
+            "product development-related problem formulation": "A parametric level set method for topology optimization should be created. The method should be fully incorporated into the conventional level set methods to construct an effective approach for structural topology optimization.",
+            "ML algorithm": "DNN"
+        },        
+        {
+            "product development-related problem formulation": "In product development, decisions about the appearance of the product are risky and difficult to make. Engineers and designers are aware that adding new design features or form design elements can degrade the visual appearance. Therefore, it is important to understand how future users perceive different design configurations. An adapted Kansei Engineering (KE) methodology focusing on the extraction of affective attributes in product design should be created. Fifteen pairwise adjectives to describe feelings and a set of collected e-bike image samples with different product designs, converted to silhouettes, are used. In addition to methodological refinement, a space of properties, specifically form design elements, was categorized based on VDI 2223 guidelines. The semantic space was defined using predefined affective attributes and later reduced using factor analysis. Based on this, e-bike image similarity should be exploited. Additionally, influential form design elements should be extracted.",
+            "ML algorithm": "HC + DT"
+        },        
+        {
+            "product development-related problem formulation": "A mechanical part should be automatically decomposed based on geometric features. This should result in an abstract product model. This representation leads to a new way of designing and redesigning parts for the novel hybrid manufacturing concept, Incremental Manufacturing (IM).",
+            "ML algorithm": "DBSCAN"
+        },        
+        {
+            "product development-related problem formulation": "During each cycle of automotive development, large amounts of geometric data are generated as results of design studies and simulation tasks. Discovering hidden knowledge from this data and making it available to the development team strengthens the design process by utilizing historic information when creating novel products. Realistic yet novel 3D shapes should be created based on point clouds.",
+            "ML algorithm": "AE"
+        },        
+        {
+            "product development-related problem formulation": "3D models should be generated in their native format so that they can be either evaluated using complex simulation environments or realized using methods such as additive manufacturing. A training dataset of 4,045 3D aircraft models should be used for demonstration.",
+            "ML algorithm": "GAN"
+        },        
+        {
+            "product development-related problem formulation": "A 3D shape design model should be created based on a corpus of existing designs in order to produce a wide range of new designs. Therefore, the encoding of the samples in the training corpus should be learned without the need for an explicit parametric representation of the original designs. The latent space representations are mapped to the high-dimensional distance transformation fields, which are then automatically surfaced to produce 3D representations amenable to physics simulations or other objective function evaluation modules.",
+            "ML algorithm": "VAE"
+        },        
+        {
+            "product development-related problem formulation": "Additive manufacturing (AM) assisted by a digital twin is expected to revolutionize the realization of high-value and high-complexity functional parts on a global scale. Therefore, AM knowledge should be automatically constructed from data. Predictive models should be developed to correlate process parameters with part structure and properties based on design, process control, in-situ monitoring, and ex-situ measurement AM data. Based on the predictive models, prescriptive rules necessary for decision-making in AM product development should be identified. The constructed rule knowledge is stored in a knowledge base for further AM knowledge queries and constructions.",
+            "ML algorithm": "CART"
+        },        
+        {
+            "product development-related problem formulation": "3D CAD models have great significances for product lifecycle reuse as each model aggregates abundant knowledge in a vivid 3D CAD model and enables engineers to reuse the existing mature designs from a high-level perspective. The effective reuse of the pre-existing 3D CAD models could greatly save time and cost in new product development. Each 3D CAD model is represented by a series of orthogonal two-dimensional views, which contain rich spatial information for differentiating 3D CAD models. The problem of view-based 3D CAD model retrieval has to be facilitated.",
+            "ML algorithm": "CNN"
+        },        
+        {
+            "product development-related problem formulation": "Complicated engineering products such as cars with a large number of components can be regarded as big data systems, where the vast amount of dependent and independent design variables must be considered systematically during the product development. Based on the crash simulation datasets, the key design variables with the most significant effect on the vehicular energy absorption response should be identified, and the range of their values should be determined. In this way, the design space can be significantly reduced, and the high-dimensional design problem is greatly simplified.",
+            "ML algorithm": "DT"
+        },
+        {
+            "product development-related problem formulation": "Failure Mode and Effects Analysis (FMEA) is one of the basic and the most commonly used techniques in reliability analysis and management. Design FMEA is the application of the FMEA method in product development phase and have shown remarkable results in various engineering design fields. DFMEA reports usually contain a lot of text information about quality and reliability improvement opportunities for new product development. However, it can be very difficult and non-intuitive to fully understand these text information for design improvements. To address this challenge, failure modes and their causes should be categorized.",
+            "ML algorithm": "ANN"
+        },
+        {
+            "product development-related problem formulation": "Valuable implicit knowledge and patterns are accumulated over time in industrial databases at various stages of product development and production. An example of such hidden patterns would be the cutting tool which is typically used to produce a profiling feature in a given steel part. Discovering and interpreting such patterns would be useful in supporting and optimizing the operations and planning activities such as process planning and manufacturing systems synthesis. Useful correlations between the manufacturing domain and the design domain, based on historical manufacturing data, should be uncovered.",
+            "ML algorithm": "Apriori algorithm"
+        },
+        {
+            "product development-related problem formulation": "After a conceptual design is generated, it should be divided into a predefined number of groups (materials).",
+            "ML algorithm": "Kmeans"
+        },
+        {
+            "product development-related problem formulation": "The importance of the rule of simulation at a conceptual design stage is pointed out recently. Structured, smooth data of design variables in an objective function space should be obtained.",
+            "ML algorithm": "SOM"
+        },
+        {
+            "product development-related problem formulation": "Ship design is related to several disciplines such as hydrostatic, resistance, propulsion and economic. The traditional ship design process only involves independent design optimization with some regression formulas within each discipline and there is no guarantee to achieve the optimum design. At the same time, it is crucial to improve the efficiency of modern ship design. Nowadays, the methods of computational fluid dynamics (CFD) has been brought into the ship design optimization. However, there are still some problems such as calculation precision and time consumption especially when CFD software is inlaid into the optimization procedure. Modeling is a far-ranging and all-around subject, and its precision directly affects the scientific decision in future. How to establish an accurate approximation model instead of the CFD calculation will be the key problem. The optimization model should be approximated and updated throughout the optimization process to improve accuracy.",
+            "ML algorithm": "SVR"
+        },
+        {
+            "product development-related problem formulation": "Great design often results from intelligently balancing tradeoffs and leveraging of synergies between multiple product goals. While the engineering design community has numerous tools for managing the interface between functional goals in products, there are currently no formalized methods to concurrently optimize stylistic form and functional requirements. The seemingly disparate but highly related goals of stylistic form and functional constraints in computational design should be coordinated. Therefore, consumer judgments of stylistic form, as surveyed, should be modeled quantitatively.",
+            "ML algorithm": "ANN"
+        },
+        {
+            "product development-related problem formulation": "In industrial enterprises, effective retrieval and reuse of three-dimensional (3-D) computer-aided design (CAD) models could greatly save time and cost in new product development and manufacturing. Engineers should be able to input a set of views, an engineering drawing, or even a hand-drawn sketch that represents their query intent, and obtain the relevant 3-D CAD models along with embedded knowledge for product lifecycle reuse.",
+            "ML algorithm": "CNN"
+        },
+        {
+            "product development-related problem formulation": "Typical algorithms used in optimisation problems can be classified into gradient-based or agent-based optimisers. Gradient-based optimisers boast very fast convergence due to their ability to extract topological information from the local gradient of the objective function, but can often get trapped in a local minimum. Agent-based optimisers use a series of agents to traverse the search space stochastically and are thus much more prone to find the global minimum, but their cost may be unacceptable in typical engineering optimisation problems. The question remains on whether convergence of agent-based algorithms can be accelerated using design space information. Topological information from the optimization design space should be extracted.",
+            "ML algorithm": "SOM"
+        },
+        {
+            "product development-related problem formulation": "The inverse approach is computationally efficient in aerodynamic design as the desired target performance distribution is prespecified. However, it has some significant limitations that prevent it from achieving full efficiency. First, the iterative procedure should be repeated whenever the specified target distribution changes. Target distribution optimization can be performed to clarify the ambiguity in specifying this distribution, but several additional problems arise in this process such as loss of the representation capacity due to parameterization of the distribution, excessive constraints for a realistic distribution, inaccuracy of quantities of interest due to theoretical/empirical predictions, and the impossibility of explicitly imposing geometric constraints. To address these issues, a realistic target distribution should be generated, and the quantities of interest and shape parameters derived from the generated distribution should be predicted.",
+            "ML algorithm": "VAE + MLP"
+        }
+    ],
+    [
+        {
+            "product development-related problem formulation": "Computational fluid dynamics (CFD) has been extensively used as a simulation tool for product development in various industrial fields. Engineers sequentially query the CFD simulator to evaluate their design instances, during which they improve the new designs based on previous evaluations. The high cost of performing CFD simulations for numerous design instances is a practical challenge. Therefore the cost should be reduced by approximating CFD simulations.",
+            "ML algorithm": "ANN"
+        },
+        {
+            "product development-related problem formulation": "Developing an engineering design is resource-intensive and timeconsuming, particularly for the floats of a floatplane design, due to its complexity and limited testing facilities. Therefore, the float's lift-to-drag coefficient ratio (CL/CD) should be predicted.",
+            "ML algorithm": "DL"
+        },
+        {
+            "product development-related problem formulation": "Process planning is a crucial activity, connecting product development and manufacturing of fiber composite structures.  Therefore, an agent to handle different process planning problems, such as cycle time estimation and resource allocation, should be developed.",
+            "ML algorithm": "GPT-4"
+        },
+        {
+            "product development-related problem formulation": "The near-wall turbulence modeling should be tackled by preserving a low computational cost. Using recently proposed methods, in order to correct the solution calculated with a Robin-type (slip) wall boundary condition on a relatively coarse mesh in the near-wall region, a turbulent viscosity profile should be estimated.",
+            "ML algorithm": "NN"
+        },
+        {
+            "product development-related problem formulation": "An interactive plotting tool, enabling the examination of the fluid boundary layer around a fan blade, should be created.",
+            "ML algorithm": "GPT"
+        },
+        {
+            "product development-related problem formulation": "The selection of a packaging type in the new product development process should be supported. The main goal is to reduce the risk of failure in compatibility tests, which are performed to ensure the safety, durability, and efficacy of the finished product for the entire period of its shelf life and consumer use. This kind of testing is mandatory inter alia for all aerosol packaging as any mechanical alterations of the packaging can cause the pressurized product to unseal and stop working properly. Moreover, aerosol products are classified as dangerous goods and any leaking of the product or propellent can be a serious hazard to the storage place, environment, and final consumer.",
+            "ML algorithm": "DT, SVM, NN"
+        },
+        {
+            "product development-related problem formulation": "Due to the complex structure of the LFR fuel rod bundle, refined CFD simulation consumes significant computing resources and time, making it difficult to meet the immediate needs of engineering design and research.  The thermal-hydraulic phenomena should be analyzed within the LFR core.",
+            "ML algorithm": "BPNN"
+        },
+        {
+            "product development-related problem formulation": "In recent years, the importance of digitalization techniques in the field of engineering has grown rapidly and led to many new applications, allowing analyzing, predicting, and reusing data. An essential type of engineering data is related to finite element models frequently used for simulation, where many small geometric changes occur during a product’s development process. These modifications reflect the engineer’s implicit knowledge, as they show the engineer’s decisions during the development process. While numerous approaches exist to formalize geometric information as a whole, representing only the changes between finite element models, and thus engineers’ knowledge, has not been investigated yet. A representation of geometric engineering changes between finite element models should be created, which is automatically learned from past engineering data. The representation should be based on vectors between variants, whose dimensionality should be reduced.",
+            "ML algorithm": "VAE"
+        },
+        {
+            "product development-related problem formulation": "The heat transfer performance in a dimpled tube under varying flow conditions, including the presence of nanoparticles, should be predicted. Therefore, the Nusselt number distribution and friction factor should be predicted. A comprehensive numerical analysis involving 120 cases was conducted to obtain Nusselt numbers and friction factors, considering different dimple depths and velocities for both pure water and water-Al2O3 nanofluid at 1%, 2%, and 3% volume concentrations.",
+            "ML algorithm": "ANN, SVM"
+        },
+        {
+            "product development-related problem formulation": "In the structural fatigue fields, such as aerospace, maritime, and civil engineering, the accurate construction of the Probability-Stress-Life (P-S-N) curve is crucial for preventing unexpected structural failures and is fundamental to the engineering design process. Conventional methods usually assume that the fatigue life distribution follows a normal or weibull distribution, which overlooks the differences of life distribution at different stress levels and introduces subjective errors. To address this issue, the fatigue life should be predicted.",
+            "ML algorithm": "MLP"
+        },
+        {
+            "product development-related problem formulation": "In the context of aircraft system performance assessment, models should be quickly inferred from experimental measurements, with less detailed system knowledge than is usually required by physics-based modeling.",
+            "ML algorithm": "DNN"
+        },
+        {
+            "product development-related problem formulation": "With the increasing focus on the electrification of personal mobility, shortened development cycles with high cost pressure have to be managed quicker than ever in the Automotive Industry at minimal development cost. As a global automotive supplier, Mubea develops novel manufacturing technologies for new products in the electric powertrain. One example in the battery case of battery electric vehicles is the thermal management system of the traction batteries—a key factor in the battery case. As a new production technology for this product, the Mubea Rollbonding Process of aluminum offers several advantages, such as a high design freedom of the channel structure. For the product development—even though Mubea consequently makes use of automated simulation workflows—the turn-around time of a single CFD performance evaluation is still high. Based on all the historic simulation results from past projects, a predictive model that allows the prediction of simulation results in real-time should be built. Therefore, 3D geometries should be processed as such.",
+            "ML algorithm": "CNN"
+        },
+        {
+            "product development-related problem formulation": "Efficient characterization of fatigue behavior plays a crucial role in engineering design as it reduces the financial costs associated with expensive experimental such as fibre tests. Therefore, optimal design points should be selected for testing.",
+            "ML algorithm": "GP"
+        },
+        {
+            "product development-related problem formulation": "Casting process simulations are commonly used to predict and avoid defect formation. Their integration into structural optimization can enable automated structure- and process-optimized castings. Nevertheless, these simulations are time-consuming and computationally expensive. Therefore, the casting process simulation for the prediction of directional solidification in low-pressure die casting should be replaced by suitable metamodels.",
+            "ML algorithm": "NN"
+        },
+        {
+            "product development-related problem formulation": "Combustible gas is widely used in industry and daily life but presents an unavoidable explosion hazard. Predicting explosion overpressure and guiding engineering design is an effective way to reduce the consequences of explosions. This paper presents a novel approach that integrates explosive theory and data science. Starting from the first principle, a dimensionless mathematical formula was constructed based on the explosive theory. Based on gas species, gas concentration, container parameters, and ignition position, which were fully considered by the formula, a data set has been created that should serve for the prediction of explosion overpressure.",
+            "ML algorithm": "SVR, BP, DNN"
+        },
+        {
+            "product development-related problem formulation": "Machine tool selection and quotation costing have a low level of automation in today's engineer-to-order environments. The decision-making process is based on imprecise human judgment even if all final product characteristics are known. The selection of several grinding wheels to produce a milling cutter, which is a multiple-criteria decision, using multi-label, should be addressed. The quotation costing should be predicted.",
+            "ML algorithm": "ANN"
+        },
+        {
+            "product development-related problem formulation": "The selection and interaction of different manufacturing technologies are major challenges in product development and production processes. Costs are one criterion for selecting the most suitable manufacturing technology for a component. Therefore, they must be considered for an automated technology selection in part screening approaches. These costs arise during the component manufacture, during the transport of the components to the production site, and within the factory’s assembly line. However, holistic cost data is not available at an early stage during product development. Hence, these information gaps must be filled to ensure the correct selection of a component’s manufacturing technology. First, the cost data of past product developments regarding potential differences between manufacturing technologies are anaylzed. Abstracted geometric part information and production-related aspects should be derived and predicted.",
+            "ML algorithm": "ANN, RF, LR"
+        },
+        {
+            "product development-related problem formulation": "Due to the complicated geometric shape, it’s difficult to precisely obtain the aerodynamic force of high-speed trains. Taking numerical and experimental data as the training data, a nonlinear implicit mapping between design variables and aerodynamic forces of a high-speed train should be constructed.",
+            "ML algorithm": "SVM"
+        },
+        {
+            "product development-related problem formulation": "The mechanical responses of additively manufactured samples using the vat polymerization process with different weight ratios of magnetic microparticles should be predicted. The overarching objective is to forecast the mechanical behavior of new compositions to eliminate or reduce the need for exhaustive post-manufacturing testing, resulting in an accelerated product development cycle.",
+            "ML algorithm": "ANN"
+        },
+        {
+            "product development-related problem formulation": "Computationally efficient and accurate simulations of the flow over axisymmetric bodies of revolution (ABR) have been an important desideratum for engineering design. Therefore, the flow field over an ABR should be predicted. The required data has been obtained from high-fidelity Reynolds stress transport model (RSTM)-based simulations.",
+            "ML algorithm": "ANN, RF, CNN"
+        },
+        {
+            "product development-related problem formulation": "Computational fluid dynamics (CFD) simulations are useful in the field of engineering design as they provide deep insights on product or system performance without the need to construct and test physical prototypes. However, they can be very computationally intensive to run. The fluid phase fraction should be reconstructed at a high resolution regarding the multiphase turbulent fluid flow problem.",
+            "ML algorithm": "super-resolution generative adversarial network (SRGAN)"
+        },
+        {
+            "product development-related problem formulation": "Engineering computer simulations require highquality meshed models, which are challenging to automatically generate from unordered point clouds. Simulation-ready meshed models should be created based on compact geometric representations. Therefore, 3D point clouds should be compressed into a latent design space, from which 3D polygonal meshes are generated by selecting and deforming simulation-ready mesh templates.",
+            "ML algorithm": "VAE"
+        },
+        {
+            "product development-related problem formulation": "In automotive digital development, engineers utilize multiple virtual prototyping tools to design and assess the performance of 3D shapes. However, accurate performance simulations are computationally expensive and time-consuming, which may be prohibitive for design optimization tasks. To address this challenge,  a 3D design assistance system for design exploration with performance assessment in the automotive domain is needed. Finding representations in a data-driven fashion results in representations that are agnostic to downstream tasks and are believed to capture relevant design features. Therefore, it should be investigated whether such data-driven representations contain relevant information about the input data and whether these representations are meaningful for performance prediction tasks involving the input data. The performance of car shapes based on the low-dimensional representation should be predicted.",
+            "ML algorithm": "AE, VAE + MLP"
+        },
+        {
+            "product development-related problem formulation": "The simulation of product behavior is a vital part of current virtual product development. It can be expected that soon there will be more product simulations due to the availability of easy-to-use finite element analysis software and computational power. Consequently, the amount of accessible new simulation data adds up to the already existing amount. However, even when using easy-to-use finite element software tools, errors can occur during the setup of finite element simulations, and users should be warned about certain mistakes by automatic algorithms. To leverage the vast amount of available finite element simulations for a data-driven finite element support tool, an automatic plausibility check for new simulations, based on previous simulation data, should be performed.",
+            "ML algorithm": "CNN"
+        },
+        {
+            "product development-related problem formulation": "The ability to predict thermal fatigue life accurately is extremely valuable to the industry, as it saves time and reduces costs in product development and optimization. Therefore, the long-term reliability of lead-free Sn96.5Ag3.0Cu0.5 (SAC305) for three commonly used surface finishes—OSP, ENIG, and IAg—should be predicted.",
+            "ML algorithm": "ANN"
+        },
+        {
+            "product development-related problem formulation": "A design support system should be developed that can be integrated into the car side silhouette design tools and can estimate the drag coefficient of a given silhouette. This task is typically performed via two manners: namely wind tunnel testing and computational fluid dynamics (CFD) simulations. Due to the high computational cost for these two approaches, it is impractical to employ them during the silhouette conceptual design stage in a real time. A training dataset is provided with the silhouette geometries and the corresponding drag coefficients (CDs). A mathematical model that can estimate the drag coefficient (CD) of a silhouette should be obtained.",
+            "ML algorithm": "LR, NN"
+        },
+        {
+            "product development-related problem formulation": "Continuous boundaries between acceptable and unacceptable engineering design parameters in complex engineering applications should be estimated. In particular, the computational cost of finding and representing the boundary should be reduced.",
+            "ML algorithm": "SVM"
+        },
+        {
+            "product development-related problem formulation": "Numerical simulations play more and more important role in product development cycles and are increasingly complex, realistic and varied. CAD models must be adapted to each simulation case to ensure the quality and reliability of the results. The defeaturing is one of the key steps for preparing digital model to a simulation. It requires a great skill and a deep expertise to foresee which features have to be preserved and which features can be simplified. This expertise is often not well developed and strongly depends of the simulation context. Therefore, rules driving the defeaturing step have to be identified.",
+            "ML algorithm": "NN, SVM, DT"
+        },
+        {
+            "product development-related problem formulation": "The market segment to which a new product belongs should be determined. Therefore, possible market segments must be identified.",
+            "ML algorithm": "KNN"
+        },
+        {
+            "product development-related problem formulation": "Product development is an important but also dynamic, lengthy and risky phase in the life of a new product. The optimisation of the product development phase through extensive knowledge of the involved procedures is believed to reduce the risks and improve the final product quality. The reliability performance of a vehicle at later stages of its life should be predicted using only information from the first inspection after the vehicle’s prototype production.",
+            "ML algorithm": "ANN"
+        },
+        {
+            "product development-related problem formulation": "Scalar fields, such as stress or temperature fields, are often calculated in shape optimization and design problems in engineering. These scalar fields should be predicted on arbitrary meshes.",
+            "ML algorithm": "CNN + MLP"
+        },
+        {
+            "product development-related problem formulation": "Direct Metal Deposition (DMD) as a part of additive manufacturing processes, utilizes a laser heat source to deposit metallic material to construct components layer by layer, allowing for controlled manufacturing. DMD processes inherently induce residual stresses and distortions in the build part. While finite element (FE) analysis is one of the approaches to predict the residual stress, the high computational time required for the FE analysis makes it undesirable for the early stages of product development. Therefore, residual stresses should be predicted. Six different metallic structures with various complex shapes, made from AISI 304 L, should be considered.",
+            "ML algorithm": "ANN"
+        },
+        {
+            "product development-related problem formulation": "Today digital qualification tools are part of many design processes that make them dependent on long and expensive simulations, leading to limited ability in exploring design alternatives. Conventional surrogate modelling techniques depend on the parametric models and come short in addressing radical design changes. Existing data-driven models lack the ability in dealing with the geometrical complexities. Therefore, images should be used as input for design evaluation. In a case study on the curtain airbag design process, a database consisting of 60,000 configurations was created and labeled using a method based on dynamic relaxation, rather than finite element methods. This database is made available online for research benchmarking purposes. The input images should be mapped to the simulation output.",
+            "ML algorithm": "CNN"
+        },
+        {
+            "product development-related problem formulation": "The aircraft conceptual design step requires a substantial number of aerodynamic configuration evaluations. Since the wing is the main aircraft lifting element, the focus is on solving direct and reverse design problems. The former could be solved using a low-cost computational model, but the latter is unlikely, even for these models. Based on the geometric characteristics of the wing and airfoil, as well as the flight conditions, aerodynamic coefficients (drag, lift, and pitching moment) should be predicted with a high degree of agreement with the substituted aerodynamic model.",
+            "ML algorithm": "MLP"
+        },
+        {
+            "product development-related problem formulation": "Computational Fluid Dynamics (CFD) has become an indispensable tool in the field of engineering design evaluation and optimisation in the maritime industry. Accurate modelling of flow around a ship’s hull and superstructure requires high fidelity CFD simulations due to complex nonlinear phenomena. On the other hand, high fidelity CFD simulations are computationally expensive, memory demanding and time-consuming, thus limiting design space exploration when used in design optimisation.  Flow fields (e.g., pressure fields) on the surface of the geometry and any overall scalar parameters (e.g., drag force) given a three-dimensional shape input should be predicted.",
+            "ML algorithm": "DNN, LGGB, XGBoost"
+        },
+        {
+            "product development-related problem formulation": "The manufacturing cost of 3D computer-aided design (CAD) models should be predicted.",
+            "ML algorithm": "CNN"
+        },
+        {
+            "product development-related problem formulation": "Flow pattern is an important engineering design factor in two-phase flow in the chemical, nuclear, and energy industries, given its effects on pressure drop, holdup, and heat and mass transfer. The prediction oftwo-phase flow patterns through phenomenological models is widely used in both industry and academy. The transition of gas-liquid flow patterns in pipes should be predicted.",
+            "ML algorithm": "RFF, ANN"
+        },
+        {
+            "product development-related problem formulation": "Manually identifying mode shapes generated from finite element solvers images is an expensive task.  Mode shapes from grayscale images of compressor blades within a jet engine should be identified. Approximately 5,300 training images, representing 16 different modes, are provided.",
+            "ML algorithm": "SVM"
+        },
+        {
+            "product development-related problem formulation": "The simulation of product behavior is a vital part in virtual product development, but currently there is no tool or method available that can examine the quality of FE simulations and decide automatically on whether a simulation is plausible or non-plausible. The plausibility should be checked based on empirical simulation datasets.",
+            "ML algorithm": "CNN"
+        }
+    ]
+]
