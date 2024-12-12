@@ -1,0 +1,588 @@
+﻿% This file was created with Citavi 6.14.0.0
+
+@article{Bae.2024,
+ abstract = {Computational fluid dynamics (CFD) has been extensively used as a simulation tool for product development in various industrial fields. Engineers sequentially query the CFD simulator to evaluate their design instances, during which they improve the new designs based on previous evaluations. The high cost of performing CFD simulations for numerous design instances is a practical challenge. To reduce this cost, machine learning (ML) approaches have been employed to approximate CFD simulations. Although ML enables the fast approximation of CFD, it can suffer from low accuracy when making predictions for design instances that significantly deviate from the training dataset. In this study, we propose a CFD-ML combined system based on stream-based active learning to utilize the CFD simulator cost-efficiently. The proposed method has two main objectives: reducing the number of CFD simulations and ensuring high accuracy of the ML approximations. When a design instance is queried, the CFD-ML system interchangeably uses the CFD simulator and the ML model depending on the predictive uncertainty of the ML model. If the uncertainty of the ML model is high, the CFD simulator is used to obtain an evaluation result, which is subsequently used to enhance the ML model. Conversely, if the uncertainty is low, the ML model is used to obtain an approximated evaluation result. The CFD-ML system reduces computational costs compared to exclusive reliance on the CFD simulator and yields more accurate evaluations compared to exclusive reliance on the ML model. We demonstrated the effectiveness of the proposed method through a case study on a centrifugal fan development task. {\copyright} 2024 Elsevier B.V.},
+ author = {Bae, Y. and Nam, K. and Kang, S.},
+ year = {2024},
+ title = {CFD-ML: Stream-based active learning of computational fluid dynamics simulations for efficient product design},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85197489140&doi=10.1016%2fj.compind.2024.104122&partnerID=40&md5=90860a41e5241a86a203178ba504e3aa},
+ keywords = {abstract ok;Active learning;Computational fluid dynamic simulators;Computational fluid dynamics;Computational fluid dynamics simulations;Cost reduction;Evaluation results;Industrial fields;Machine learning;Machine learning models;Machine learning systems;Machine-learning;Product design;Stream-based;Uncertainty},
+ volume = {161},
+ issn = {01663615},
+ journal = {Computers in Industry},
+ doi = {10.1016/j.compind.2024.104122},
+ file = {CFD-ML{\_}Stream-based active learning of computational fluid dynamics simulations for efficient product design:Attachments/CFD-ML{\_}Stream-based active learning of computational fluid dynamics simulations for efficient product design.pdf:application/pdf}
+}
+
+
+@article{Buechler.2022,
+ abstract = {The selection and interaction of different manufacturing technologies are major challenges in product development and production processes. Costs are one criterion for selecting the most suitable manufacturing technology for a component. Therefore, they must be considered for an automated technology selection in part screening approaches. These costs arise during the component manufacture, during the transport of the components to the production site, and within the factory's assembly line. However, holistic cost data is not available at an early stage during product development. Hence, these information gaps must be filled to ensure the correct selection of a component's manufacturing technology. This paper first analyzes the cost data of past product developments regarding potential differences between manufacturing technologies. Abstracted geometric part information and production-related aspects are derived and predicted to serve as input features for the subsequent cost prediction. These AI-based cost prediction models are trained for relevant cost types along the part's lifecycle. The most capable prediction models are combined into a manufacturing technology-dependent cost analysis of the components. Based on that, the forecasted costs of different manufacturing scenarios represent one input for the overarching part screening methodology to select the most suitable manufacturing technology for each component.(c) 2022 CIRP.},
+ author = {Buechler, T. and Kolter, M. and Hallweger, L. and Zaeh, M. F.},
+ year = {2022},
+ title = {Predictive cost comparison of manufacturing technologies through analyzing generic features in part screening},
+ keywords = {3D printers;abstract ok;additive manufacturing;Cost benefit analysis;Cost comparisons;Cost data;Cost prediction;Early-stage flexibility;Forecasting;Generic features;Life cycle;Manufacturing system design;Manufacturing technologies;Part screening;Product development;Product development process;Product production process},
+ pages = {299--319},
+ volume = {38},
+ issn = {1755-5817},
+ journal = {CIRP JOURNAL OF MANUFACTURING SCIENCE AND TECHNOLOGY},
+ doi = {10.1016/j.cirpj.2022.04.012},
+ file = {Predictive cost comparison of manufacturing technologies through analyzing generic features in part screening:Attachments/Predictive cost comparison of manufacturing technologies through analyzing generic features in part screening.pdf:application/pdf}
+}
+
+
+@article{Chen.2022,
+ abstract = {Due to the complicated geometric shape, it's difficult to precisely obtain the aerodynamic force of high-speed trains. Taking numerical and experimental data as the training data, the present work proposed a data-driven rapid prediction model to solve this problem, which utilized the Support Vector Machine (SVM) model to construct a nonlinear implicit mapping between design variables and aerodynamic forces of high-speed train. Within this framework, it is a key issue to achieve the consistency and auto-extraction of design variables for any given streamlined shape. A general parameterization method for the streamlined shape which adopted the idea of step-by-step modeling has been proposed. Taking aerodynamic drag as the prediction objective, the effectiveness of the model was verified. The results show that the proposed model can be successfully used for performance evaluation of high-speed trains. Keeping a comparable prediction accuracy with numerical simulations, the efficiency of the rapid prediction model can be improved by more than 90{\%}. With the enrichment of data for the training set, the prediction accuracy of the rapid prediction model can be continuously improved. Current study provides a new approach for aerodynamic evaluation of high-speed trains and can be beneficial to corresponding engineering design departments.},
+ author = {Chen, D. W. and Sun, Z. X. and Yao, S. B. and Xu, S. F. and Yin, B. and Guo, D. L. and Yang, G. W. and Ding, S. S.},
+ year = {2022},
+ title = {Data-driven rapid prediction model for aerodynamic force of high-speed train with arbitrary streamlined head},
+ keywords = {abstract ok},
+ pages = {2190--2205},
+ volume = {16},
+ number = {1},
+ issn = {1994-2060},
+ journal = {ENGINEERING APPLICATIONS OF COMPUTATIONAL FLUID MECHANICS},
+ doi = {10.1080/19942060.2022.2136758},
+ file = {Chen, Sun et al. 2022 - Data-driven rapid prediction model:Attachments/Chen, Sun et al. 2022 - Data-driven rapid prediction model.pdf:application/pdf}
+}
+
+
+@article{Malley.2022,
+ abstract = {Additive manufacturing and data analytics are independently flourishing research areas, where the latter can be leveraged to gain a great insight into the former. In this paper, the mechanical responses of additively manufactured samples using vat polymerization process with different weight ratios of magnetic microparticles were used to develop, train, and validate a neural network model. Samples with six different compositions, ranging from neat photopolymer to a composite of photopolymer with 4 wt.{\%} of magnetic particles, were manufactured and mechanically tested at quasi-static strain rate and ambient environmental conditions. The experimental data were also synthesized using a data-driven approach based on shape-preserving piecewise interpolations while leveraging the concept of simple micromechanics rule of mixture. The overarching objective is to forecast the mechanical behavior of new compositions to eliminate or reduce the need for exhaustive post-manufacturing testing, resulting in an accelerated product development cycle. The ML model predictions were found to be in excellent agreement with the experimental data for prognostication of the mechanical behavior of physically tested samples with near-unity correlation coefficients. Furthermore, the ML model performed reasonably well in predicting the mechanical response of untested, newly formulated compositions of photopolymers and magnetic particles. On the other hand, the data-driven approach predictions suffered from processing artifacts, demonstrating the superiority of ML algorithms in handling this type of data. Overall, this analysis approach holds great potential in advancing the prospects of additive manufacturing and model-less mechanics of material analyses. A byproduct of the ML approach is using the results for quality assurance, accelerating the acceptance of additively manufactured parts into industrial deployments. {\copyright} 2022 The Authors},
+ author = {Malley, S. and Reina, C. and Nacy, S. and Gilles, J. and Koohbor, B. and Youssef, G.},
+ year = {2022},
+ title = {Predictability of mechanical behavior of additively manufactured particulate composites using machine learning and data-driven approaches},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85133865465&doi=10.1016%2fj.compind.2022.103739&partnerID=40&md5=0e88f4d0da45695c136172ca469e5f10},
+ keywords = {3D printers;abstract ok;Additives;Data analytics;Data driven;Data-driven approach;Forecasting;Machine data;Machine learning;Machine-learning;Magnetic particle;Magnetoelectric composites;Mechanical behavior;Mechanical response;Particulate composites;Polymerization;Quality assurance;Strain rate;Vat polymerization},
+ volume = {142},
+ issn = {01663615},
+ journal = {Computers in Industry},
+ doi = {10.1016/j.compind.2022.103739},
+ file = {Predictability of mechanical behavior of additively manufactured particulate composites using machine learning and data-driven approaches:Attachments/Predictability of mechanical behavior of additively manufactured particulate composites using machine learning and data-driven approaches.pdf:application/pdf}
+}
+
+
+@article{Panda.2022,
+ abstract = {Computationally efficient and accurate simulations of the flow over axisymmetric bodies of revolution (ABR) have been an important desideratum for engineering design. In this article, the flow field over an ABR is predicted using machine learning (ML) algorithms (e.g., random forest (RF), artificial neural network (ANN), and convolutional neural network (CNN)) using trained ML models as surrogates for classical computational fluid dynamics (CFD) approaches. The data required for the development of the ML models were obtained from high fidelity Reynolds stress transport model (RSTM)-based simulations. The flow field is approximated as functions of x and y coordinates of locations in the flow field and the velocity at the inlet of the computational domain. The optimal hyperparameters of the trained ML models are determined using validation. The trained ML models can predict the flow field rapidly and exhibit orders of magnitude speedup over conventional CFD approaches. The predicted results of pressure, velocity, and turbulence kinetic energy are compared with the baseline CFD data. It is found that the ML-based surrogate model predictions are as accurate as CFD results. This investigation offers a framework for fast and accurate predictions for a flow scenario that is critically important in engineering design.},
+ author = {Panda, J. P. and Warrior, H. V.},
+ year = {2022},
+ title = {Data-Driven Prediction of Complex Flow Field Over an Axisymmetric Body of Revolution Using Machine Learning},
+ keywords = {abstract ok;Artificial Neural Network;Axisymmetric bodies;axisymmetric body;Body of revolution;Complex flow field;Computational fluid dynamics;Computationally efficient;Convolution;Data driven;Engineering design;flow field;Flow fields;Fluid-dynamics approach;Forecasting;Forestry;hydrodynamics;kinetic energy;Kinetics;Machine learning;Machine learning algorithms;Machine learning models;Machine-learning;neural networks;Reynolds number;turbulence},
+ volume = {144},
+ number = {6},
+ issn = {0892-7219},
+ journal = {JOURNAL OF OFFSHORE MECHANICS AND ARCTIC ENGINEERING-TRANSACTIONS OF THE ASME},
+ doi = {10.1115/1.4055280},
+ file = {Panda, Warrior 2022 - Data-Driven Prediction of Complex Flow:Attachments/Panda, Warrior 2022 - Data-Driven Prediction of Complex Flow.pdf:application/pdf}
+}
+
+
+@proceedings{Li.2021,
+ abstract = {Computational Fluid Dynamics (CFD) simulations are useful to the field of engineering design as they provide deep insights on product or system performance without the need to construct and test physical prototypes. However, they can be very computationally intensive to run. Machine learning methods have been shown to reconstruct high-resolution single-phase turbulent fluid flow simulations from low-resolution inputs. This offers a potential avenue towards alleviating computational cost in iterative engineering design applications. However, little work thus far has explored the application of machine learning image super-resolution methods to multiphase fluid flow (which is important for important for emerging fields such as marine hydrokinetic energy conversion). In this work, we apply a modified version of the Super-Resolution Generative Adversarial Network (SRGAN) model to a multiphase turbulent fluid flow problem, specifically to reconstruct fluid phase fraction at a higher resolution. Two models were created in this work, one with a simple physics-constrained loss function and one without, and the results are discussed and analyzed. We found that both models were able to significantly outperform non-machine learning upsampling methods and can preserve an impressive amount of detail and nuance, showing the versatility of the SRGAN model for upsampling fluid simulations. However, the difference in accuracy between the two models is quite minimal. This indicates that, for these contexts studied here, the additional complexity of a physics-informed approach may not be justified. Copyright {\copyright} 2021 by ASME.},
+ year = {2021},
+ title = {Using physics-informed generative adversarial networks to perform super-resolution for multiphase fluid simulations},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119951007&doi=10.1115%2fDETC2021-66719&partnerID=40&md5=31ce784d4e09277959744a00925ebe21},
+ keywords = {abstract ok;Computational fluid dynamics;Computational fluid dynamics simulations;Cost engineering;Energy conversion;Engineering design;Fluid simulations;Generative adversarial networks;High resolution;Iterative methods;Multiphase flow;Multiphase fluids;Network models;Optical resolving power;Product design;Product performance;Signal sampling;Superresolution;Turbulent fluid flow;Upsampling},
+ volume = {3A-2021},
+ publisher = {{American Society of Mechanical Engineers (ASME)}},
+ isbn = {978-079188538-3},
+ editor = {Li, M. and McComb, C.},
+ doi = {10.1115/DETC2021-66719},
+ file = {Using physics-informed generative adversarial networks to perform super-resolution for multiphase fluid simulations:Attachments/Using physics-informed generative adversarial networks to perform super-resolution for multiphase fluid simulations.pdf:application/pdf}
+}
+
+
+@inproceedings{Rios.2021,
+ abstract = {Methods for learning on 3D point clouds became ubiquitous due to the popularization of 3D scanning technology and advances of machine learning techniques. Among these methods, point-based deep neural networks have been utilized to explore 3D designs in optimization tasks. However, engineering computer simulations require high-quality meshed models, which are challenging to automatically generate from unordered point clouds. In this work, we propose Point2FFD: A novel deep neural network for learning compact geometric representations and generating simulation-ready meshed models. Built upon an autoencoder architecture, Point2FFD learns to compress 3D point clouds into a latent design space, from which the network generates 3D polygonal meshes by selecting and deforming simulation-ready mesh templates. Through benchmark experiments, we show that our proposed network achieves comparable shape-generative performance than existing state-of-the-art point-based generative models. In real world-inspired vehicle aerodynamic optimizations, we demonstrate that Point2FFD generates simulation-ready meshes of realistic car shapes and leads to better optimized designs than the benchmarked networks.},
+ author = {Rios, T. and {van Stein}, B. and B{\"a}ck, T. and Sendhoff, B. and Menzel, S. and {IEEE Comp Soc}},
+ title = {Point2FFD: Learning Shape Representations of Simulation-Ready 3D Models for Engineering Design Optimization},
+ keywords = {abstract ok},
+ pages = {1024--1033},
+ isbn = {2378-3826},
+ year = {2021},
+ doi = {10.1109/3DV53792.2021.00110},
+ file = {Rios, van Stein et al. 2021 - Point2FFD Learning Shape Representations:Attachments/Rios, van Stein et al. 2021 - Point2FFD Learning Shape Representations.pdf:application/pdf}
+}
+
+
+@proceedings{Saha.2021,
+ abstract = {In automotive digital development, engineers utilize multiple virtual prototyping tools to design and assess the performance of 3D shapes. However, accurate performance simulations are computationally expensive and time-consuming, which may be prohibitive for design optimization tasks. To address this challenge, we envision a 3D design assistance system for design exploration with performance assessment in the automotive domain. Recent advances in deep learning methods for learning geometric data are a promising step towards realizing such systems. Deep learning-based (variational) autoencoder models have been used for learning and compressing 3D data allowing engineers to generate low-dimensional representations of 3D designs. Finding representations in a data-driven fashion results in representations that are agnostic to downstream tasks performed on these representations and are believed to capture relevant design features. In this paper, we evaluate whether such data-driven representations contain relevant information about the input data and whether representations are meaningful in performance prediction tasks for the input data. We use machine learning-based surrogate models to predict the performances of car shapes based on the low-dimensional representation learned by 3D point cloud (variational) autoencoders. Furthermore, we exploit the stochastic nature of the representation learned by variational autoencoders to augment the training data for our surrogate models, since the limited amount of data is usually a challenge for surrogate modeling in engineering. We demonstrate that augmenting training with generated shapes improves prediction accuracy. In sum, we find that geometric deep learning approaches offer powerful tools to support the engineering design process.},
+ year = {2021},
+ title = {Exploiting Generative Models for Performance Predictions of 3D Car Designs},
+ keywords = {3-d designs;3D point cloud;3D point clouds;abstract ok;Auto encoder;Auto encoders;Deep learning;Forecasting;Low-dimensional representation;Performance;Performance prediction;Regression analysis;Representation learning;Signal encoding;Stochastic models;Stochastic systems;Surrogate modeling;Variational autoencoder;Vehicle performance},
+ isbn = {978-1-72819-048-8},
+ editor = {Saha, S. and Rios, T. and Minku, L. L. and Stein, B. V. and Wollstadt, P. and Yao, X. and B{\"a}ck, T. and Sendhoff, B. and Menzel, S. and IEEE},
+ doi = {10.1109/SSCI50451.2021.9660034},
+ file = {Saha, Rios et al. (Hg.) 2021 - Exploiting Generative Models for Performance:Attachments/Saha, Rios et al. (Hg.) 2021 - Exploiting Generative Models for Performance.pdf:application/pdf}
+}
+
+
+@article{Abbas.2022,
+ author = {Abbas, Asad and Rafiee, Ashkan and Haase, Max and Malcolm, Andrew},
+ year = {2022},
+ title = {Geometrical deep learning for performance prediction of high-speed craft},
+ pages = {111716},
+ volume = {258},
+ issn = {00298018},
+ journal = {Ocean Engineering},
+ file = {Geometrical deep learning for performance prediction of high-speed craft:Attachments/Geometrical deep learning for performance prediction of high-speed craft.pdf:application/pdf}
+}
+
+
+@article{Spruegel.2021,
+ abstract = {The simulation of product behavior is a vital part of current virtual product development. It can be expected that soon there will be more product simulations due to the availability of easy-to-use finite element analysis software and computational power. Consequently, the amount of accessible new simulation data adds up to the already existing amount. However, even when using easy-to-use finite element software tools, errors can occur during the setup of finite element simulations, and users should be warned about certain mistakes by automatic algorithms. To use the vast amount of available finite element simulations for a data-driven finite element support tool, in this paper, a methodology will be presented to transform different finite element simulations to unified matrices. The procedure is based on the projection of nodes onto a detector sphere, which is converted into a matrix in the next step. The generated matrices represent the simulation and can be described as the DNA of a finite element simulation. They can be used as an input for any machine learning model, such as convolutional neural networks. The essential steps of preprocessing the data and an application with a large dataset are part of this contribution. The trained network can then be used for an automatic plausibility check for new simulations, based on the previous simulation data from the past. This can result in a tool for automatic plausibility checks and can be the backbone for a feedback system for less experienced users.},
+ author = {Spruegel, T. C. and Bickel, S. and Schleich, B. and Wartzack, S.},
+ year = {2021},
+ title = {Approach and application to transfer heterogeneous simulation data from finite element analysis to neural networks},
+ keywords = {abstract ok;Artificial Neural Network;Automatic algorithms;Bioinformatics;Computational power;Computer aided software engineering;Convolutional neural network;Convolutional neural networks;Data communication systems;Deep neural network;Finite element analysis software;Finite element method;Finite Element Simulation;Finite element simulations;Finite element software;heterogeneity;Heterogeneous simulation;Large dataset;Machine learning models;Matrix algebra;numerical method;plausibility check;research work;simulation DNA;spherical detector surface;Virtual product development},
+ pages = {298--315},
+ volume = {8},
+ number = {1},
+ issn = {2288-5048},
+ journal = {JOURNAL OF COMPUTATIONAL DESIGN AND ENGINEERING},
+ doi = {10.1093/jcde/qwaa079},
+ file = {Spruegel, Bickel et al. 2021 - Approach and application to transfer:Attachments/Spruegel, Bickel et al. 2021 - Approach and application to transfer.pdf:application/pdf}
+}
+
+
+@article{Quintino.2020,
+ author = {Quintino, Andr{\'e} M. and {da Rocha}, Davi L. L. N. and {Fonseca Jr.}, Roberto and Rodriguez, Oscar M. H.},
+ year = {2020},
+ title = {Flow Pattern Transition in Pipes Using Data-Driven and Physics-Informed Machine Learning},
+ issn = {0098-2202},
+ journal = {Journal of Fluids Engineering},
+ doi = {10.1115/1.4048876},
+ file = {Quintino, da Rocha et al. 2020 - Flow Pattern Transition in Pipes:Attachments/Quintino, da Rocha et al. 2020 - Flow Pattern Transition in Pipes.pdf:application/pdf}
+}
+
+
+@article{Yi.2020,
+ abstract = {Purpose
+
+This paper aims to present a machine learning framework for using big data analytics to predict the reliability of solder joints. The purpose of this study is to accurately predict the reliability of solder joints by using big data analytics.
+
+Design/methodology/approach
+
+A machine learning framework for using big data analytics is proposed to predict the reliability of solder joints accurately.
+
+Findings
+
+A machine learning framework for predicting the life of solder joints accurately has been developed in this study. To validate its accuracy and efficiency, it is applied to predict the long-term reliability of lead-free Sn96.5Ag3.0Cu0.5 (SAC305) for three commonly used surface finishes such OSP, ENIG and IAg. The obtained results show that the predicted failure based on the machine learning method is much more accurate than the Weibull method. In addition, solder ball/bump joint failure modes are identified based on various solder joint failures reported in the literature.
+
+Originality/value
+
+The ability to predict thermal fatigue life accurately is extremely valuable to the industry because it saves time and cost for product development and optimization.},
+ author = {Yi, S. and Jones, R.},
+ year = {2020},
+ title = {Machine learning framework for predicting reliability of solder joints},
+ keywords = {abstract ok;Advanced Analytics;Big data;Copper alloys;Cracks;Data analytics;Design/methodology/approach;Drop;Drops;Failure prediction;Forecasting;Joint failure modes;Learning systems;Machine learning;Machine learning methods;Reliability;Silver alloys;Solder balls;Solder joints;Solder joints failure prediction;Soldered joints;Soldering;Surface finishes;Ternary alloys;Thermal cycling;Thermal fatigue;Tin alloys;Weibull method},
+ pages = {82--92},
+ volume = {32},
+ number = {2},
+ issn = {0954-0911},
+ journal = {SOLDERING {\&} SURFACE MOUNT TECHNOLOGY},
+ doi = {10.1108/SSMT-04-2019-0013},
+ file = {Yi, Jones 2020 - Machine learning framework for predicting:Attachments/Yi, Jones 2020 - Machine learning framework for predicting.pdf:application/pdf}
+}
+
+
+@article{Gunpinar.2019,
+ abstract = {A design support system is developed in this work that can be integrated into the car side silhouette design tools and can estimate the drag coefficient of a given silhouette. This task is typically performed via two manners: namely wind tunnel testing and computational fluid dynamics (CFD) simulations. Due to the high computational cost for these two approaches, it is impractical to employ them during the silhouette conceptual design stage in a real time. Therefore, a mathematical model is obtained in this study for the drag coefficient estimation of a given silhouette. First, the desired number of silhouettes are generated via a generative design (silhouette sampling) technique so that the silhouettes are evenly distributed in the silhouette design space. Each silhouette is then tested via computational fluid dynamics simulations, and their corresponding drag coefficients (C                             D                             s) are obtained. A training dataset is formed with the silhouette geometries and C                             D                             s of the silhouettes, and a mathematical model that can estimate the drag coefficient (C                             D                             ) of a silhouette is finally obtained via principal component analysis (PCA) followed by regression/neural network methods. These three steps are repeated until a desired level of reliable mathematical model is obtained. Finally, three generative design test cases are illustrated based on the mathematical model obtained to predict C                             D                              of a given silhouette.                          {\copyright} 2019 Elsevier Ltd},
+ author = {Gunpinar, E. and Coskun, U. C. and Ozsipahi, M. and Gunpinar, S.},
+ year = {2019},
+ title = {A Generative Design and Drag Coefficient Prediction System for Sedan Car Side Silhouettes based on Computational Fluid Dynamics},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85062146183&doi=10.1016%2fj.cad.2019.02.003&partnerID=40&md5=624d11fe1206d592c157b0b453961227},
+ keywords = {abstract ok;Automobiles;Computational costs;Computational fluid dynamics;Computational fluid dynamics simulations;Conceptual design;Conceptual design stages;Design sampling;Design support system;Design support systems;Drag;Drag coefficient;Estimation;Generative design;Learning systems;Machine learning;Prediction systems;Principal component analysis;Training dataset;Wind tunnels;Wind-tunnel testing},
+ pages = {65--79},
+ volume = {111},
+ issn = {00104485},
+ journal = {CAD Computer Aided Design},
+ doi = {10.1016/j.cad.2019.02.003},
+ file = {A Generative Design and Drag Coefficient Prediction System for Sedan Car Side Silhouettes based on Computational Fluid Dynamics:Attachments/A Generative Design and Drag Coefficient Prediction System for Sedan Car Side Silhouettes based on Computational Fluid Dynamics.pdf:application/pdf}
+}
+
+
+@incollection{La.2019,
+ author = {La, Alex and Salmon, John and Ellingson, Jaron},
+ title = {Identifying Mode Shapes of Turbo-Machinery Blades Using Principal Component Analysis and Support Vector Machines},
+ pages = {23--26},
+ publisher = {{Springer International Publishing} and {Imprint Springer}},
+ isbn = {978-3-319-74475-9},
+ series = {Conference Proceedings of the Society for Experimental Mechanics Series},
+ editor = {Niezrecki, Christopher and Baqersad, Javad},
+ booktitle = {Structural Health Monitoring, Photogrammetry {\&} DIC, Volume 6},
+ year = {2019},
+ address = {Cham},
+ doi = {10.1007/978-3-319-74476-6{\textunderscore }3},
+ file = {La, Salmon et al. 2019 - Identifying Mode Shapes of Turbo-Machinery:Attachments/La, Salmon et al. 2019 - Identifying Mode Shapes of Turbo-Machinery.pdf:application/pdf}
+}
+
+
+@article{Cholette.2017,
+ abstract = {This paper addresses the problem of estimating continuous boundaries between acceptable and unacceptable engineering design parameters in complex engineering applications. In particular, a procedure is proposed to reduce the computational cost of finding and representing the boundary. The proposed methodology combines a low-discrepancy sequence (Sobol) and a support vector machine (SVM) in an active learning procedure able to efficiently and accurately estimate the boundary surface. The paper describes the approach and methodological choices resulting in the desired level of boundary surface refinement and the new algorithm is applied to both two highly-nonlinear test functions and a real-world train stability design problem. It is expected that the new method will provide designers with a tool for the evaluation of the acceptability of designs, particularly for engineering systems whose behaviour can only be determined through complex simulations. {\copyright} 2017 Elsevier Ltd},
+ author = {Cholette, M. E. and Borghesani, P. and Gialleonardo, E. D. and Braghin, F.},
+ year = {2017},
+ title = {Using support vector machines for the computationally efficient identification of acceptable design parameters in computer-aided engineering applications},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85016308993&doi=10.1016%2fj.eswa.2017.03.050&partnerID=40&md5=2d9d8e0931be9bc507ef5d47ee80d65e},
+ keywords = {A Data Mining and Optimization Process with Shape and Size Design Variables Consideration for Vehicle Application;abstract ok;Active learning;Artificial intelligence;Complex engineering;Computational costs;Computationally efficient;Computer aided engineering;Design;Design criteria;Design criteria evaluation;Low-discrepancy sequences;Parameter estimation;Support vector machines;Train dynamics;Zero finding},
+ pages = {39--52},
+ volume = {81},
+ issn = {09574174},
+ journal = {Expert Systems with Applications},
+ doi = {10.1016/j.eswa.2017.03.050},
+ file = {Cholette, Borghesani et al. 2017 - Using support vector machines:Attachments/Cholette, Borghesani et al. 2017 - Using support vector machines.pdf:application/pdf}
+}
+
+
+@article{Spruegel.2017,
+ abstract = {The simulation of product behavior is a vital part in virtual product development, but currently there is no tool or method available that can examine the quality of FE simulations and decide automatically on whether a simulation is plausible or non-plausible. In the paper a method is presented that enables automatic plausibility checks on basis of empirical simulation datasets. Nodal simulation data is transformed to numerical arrays, of fixed size, using virtual spherical detector surfaces. Afterwards the arrays are used to train a Deep Convolutional Neural Network (AlexNet). The Neural Network can then be used for plausibility checks of FE simulations (structural mechanics). In a first application a Deep Convolutional Neural Network is trained with simulation data of a demonstrator part, the rail of speed inline skates. After the GPU training of the Neural Network, further simulations are evaluated with the net. These simulations were not part of the training data and are used to calculate the prediction quality of the Neural Network. This approach is to support development engineers during design accompanying FEA in virtual product development.},
+ author = {Spruegel, Tobias and Schr{\"o}ppel, Tina and Wartzack, Sandro},
+ year = {2017},
+ title = {Generic approach to plausibility checks for structural mechanics with deep learning},
+ url = {https://www.designsociety.org/publication/39529/generic+approach+to+plausibility+checks+for+structural+mechanics+with+deep+learning},
+ pages = {299--308},
+ issn = {2220-4342},
+ journal = {DS 87-1 Proceedings of the 21st International Conference on Engineering Design (ICED 17) Vol 1: Resource Sensitive Design, Design Research Applications and Case Studies, Vancouver, Canada, 21-25.08.2017},
+ file = {Spruegel, Schr{\"o}ppel et al. 2017 - Generic approach to plausibility checks:Attachments/Spruegel, Schr{\"o}ppel et al. 2017 - Generic approach to plausibility checks.pdf:application/pdf}
+}
+
+
+@article{Danglade.2014,
+ abstract = {Numerical simulations play more and more important role in product development cycles and are increasingly complex, realistic and varied. CAD models must be adapted to each simulation case to ensure the quality and reliability of the results. The defeaturing is one of the key steps for preparing digital model to a simulation. It requires a great skill and a deep expertise to foresee which features have to be preserved and which features can be simplified. This expertise is often not well developed and strongly depends of the simulation context. In this paper, we propose an approach that uses machine learning techniques to identify rules driving the defeaturing step. The expertise knowledge is supposed to be embedded in a set of configurations that form the basis to develop the processes and find the rules. For this, we propose a method to define the appropriate data models used as inputs and outputs of the learning techniques. {\copyright} 2013 {\copyright} 2013 CAD Solutions, LLC.},
+ author = {Danglade, F. and Pernot, J.-P. and V{\'e}ron, P.},
+ year = {2014},
+ title = {On the use of Machine Learning to Defeature CAD Models for Simulation},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-84890036392&doi=10.1080%2f16864360.2013.863510&partnerID=40&md5=58cf464fa94083c4b4dae67d3e0a28fd},
+ keywords = {abstract ok;CAD model defeaturing;CAD models;Computer aided design;Computer simulation;Decision making;Defeaturing;Digital model;Learning systems;Learning techniques;Machine learning;Machine learning techniques;Product development;Product development cycle;simulation},
+ pages = {358--368},
+ volume = {11},
+ number = {3},
+ issn = {16864360},
+ journal = {Computer-Aided Design and Applications},
+ doi = {10.1080/16864360.2013.863510},
+ file = {Danglade, Pernot et al. 2014 - On the use of Machine:Attachments/Danglade, Pernot et al. 2014 - On the use of Machine.pdf:application/pdf}
+}
+
+
+@article{Yoo.2021,
+ author = {Yoo, Soyoung and Kang, Namwoo},
+ year = {2021},
+ title = {Explainable artificial intelligence for manufacturing cost estimation and machining feature visualization},
+ pages = {115430},
+ volume = {183},
+ issn = {09574174},
+ journal = {Expert Systems with Applications},
+ doi = {10.1016/j.eswa.2021.115430},
+ file = {Yoo, Kang 2021 - Explainable artificial intelligence for manufacturing:Attachments/Yoo, Kang 2021 - Explainable artificial intelligence for manufacturing.pdf:application/pdf}
+}
+
+
+@inproceedings{Lei.2013,
+ abstract = {This paper presents a decision support system (DSS) for market segment driven product design. The input for the proposed system is historic market data and design parameters for a new product. Through market segmentation, with Principal Component Analysis (PCA) and k-means, as well as AdaBoost classification, the DSS determines to which market segment a new product belongs. To demonstrate the feasibility of the proposed system, we have conducted a case study, based on US automotive market data. In this case study, the proposed DSS achieved a classification accuracy of 92.40{\%}. The high accuracy levels make us confident that the proposed system can benefit enterprise decision makers by providing an objective second opinion on the question: To which market segment does a new product design belong? Having the information about the market segment implies that the competition is known and marketing can position the product accurately. Furthermore, the design parameters can be adjusted such that (a) the new product fits this market segment better or (b) the new product is positioned in a different market segment. Therefore, the proposed system enables market segment driven product design.},
+ author = {Lei, N. R. and Moon, S. K.},
+ title = {A DECISION SUPPORT SYSTEM FOR MARKET SEGMENT DRIVEN PRODUCT DESIGN},
+ keywords = {abstract ok;Adaboost classifications;Adaptive boosting;Artificial intelligence;Automotive markets;Classification accuracy;Commerce;Data mining;Decision making;Decision support system (dss);Decision support systems;Design parameters;Market segmentation;New product design;New product development;Principal component analysis;Product design},
+ pages = {177--186},
+ isbn = {2220-4334},
+ editor = {Lindemann, U. and Srinivasan, V. and Kim, Y. S. and Lee, S. W. and Papalambros, P. and Chen, W.},
+ year = {2013},
+ file = {A DECISION SUPPORT SYSTEM FOR MARKET SEGMENT DRIVEN PRODUCT DESIGN:Attachments/A DECISION SUPPORT SYSTEM FOR MARKET SEGMENT DRIVEN PRODUCT DESIGN.pdf:application/pdf}
+}
+
+
+@inproceedings{Ziegler.2023,
+ abstract = {Machine tool selection and quotation costing have a low level of automation in today's engineer-to-order environments. The decision-making process is based on imprecise human judgment even if all final product characteristics are known. To improve precision and save time, we propose to apply artificial neural networks that are trained on data of already produced products. In particular, we address the selection of several grinding wheels to produce a milling cutter, which is a multiple-criteria decision, using multi-label classification. The quotation costing is a single output regression problem. In both tasks, our results on real-world data show high accuracy. {\copyright} 2022 Elsevier B.V.. All rights reserved.},
+ author = {Ziegler, C. C. and Dobhan, A. and Heusinger, M.},
+ title = {Applications of Neural Networks in Engineer-to-order Environment},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85142658107&doi=10.1016%2fj.procir.2022.09.052&partnerID=40&md5=afa1ba36dc30f720d61d60681ce9f5e0},
+ keywords = {abstract ok;Classification (of information);Costs;Decision making;Decision-making process;Engineer to orders;Engineers;engineer-to-order;Human judgments;Levels of automation;Machine learning;Machine tool selection;Machine tools;Machine-learning;Neural network;neural networks;Neural-networks;Product characteristics;Product development;quotation costing;tool selection},
+ pages = {140--145},
+ publisher = {{Elsevier B.V}},
+ isbn = {22128271},
+ editor = {{Teti R.} and {D'Addona D.}},
+ year = {2023},
+ doi = {10.1016/j.procir.2022.09.052},
+ file = {Applications of Neural Networks in Engineer-to-order Environment:Attachments/Applications of Neural Networks in Engineer-to-order Environment.pdf:application/pdf}
+}
+
+
+@inproceedings{Rosnitschek.2023,
+ abstract = {Casting process simulations are commonly used to predict and avoid defect formation. Their integration into structural optimization can enable automated structure- and process-optimized castings. Nevertheless, these simulations are time-consuming and computationally expensive. Therefore, this paper used graph theory and skeletonization techniques to extract geometric features from arbitrary 3D geometries and transferred them to machine learning-metamodels. This method can replace casting process simulation for the prediction of directional solidification in low-pressure die casting. Automated machine learning and hyperparameter optimization were used to systemize the search for well-suited neural network architectures. Two examples were used to train the metamodels, which are subsequently evaluated by a further test example, unknown to the training data and compared to the simulation results. The results showed an accuracy on unknown geometries over 60 {\%} and thus emphasized that neural network metamodels are capable of replacing time-consuming casting process simulation for specific objectives. {\copyright} 2023 Elsevier B.V.. All rights reserved.},
+ author = {Rosnitschek, T. and Erber, M. and Alber-Laukant, B. and Hartmann, C. and Volk, W. and Rieg, F. and Tremmel, S.},
+ title = {Predicting the solidification time of low pressure die castings using geometric feature-based machine learning metamodels},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85173585580&doi=10.1016%2fj.procir.2023.06.189&partnerID=40&md5=8d27f6d97202058bc79762f91b9b21b1},
+ keywords = {abstract ok;casting design;Casting designs;Casting process simulation;Computer aided design;Computer aided instruction;Deep learning;Directed solidification;E-learning;Forecasting;Geometric feature;Geometry;Graph theory;Low pressure die casting;Machine learning;Machine-learning;Meta model;Network architecture;process assurance;Product design;Solidification;Solidification time;Structural optimization;Virtual product development},
+ pages = {1102--1107},
+ publisher = {{Elsevier B.V}},
+ isbn = {22128271},
+ editor = {{Teti R.} and {D'Addona D.}},
+ year = {2023},
+ doi = {10.1016/j.procir.2023.06.189},
+ file = {Predicting the solidification time of low pressure die castings using geometric feature-based machine learning metamodels:Attachments/Predicting the solidification time of low pressure die castings using geometric feature-based machine learning metamodels.pdf:application/pdf}
+}
+
+
+@article{Fahmi.2024,
+ abstract = {Developing an engineering design is resource-intensive and time-consuming, particularly for the floats of a floatplane design, due to its complexity and limited testing facilities. Intelligent-based computational design (IBCD) techniques, which integrate computational design techniques and machine learning (ML) algorithms, offer a solution to reduce required testing by providing predictions. This paper proposes a deep learning (DL)-based IBCD method for modeling floats' lift-to-drag coefficient ratio (CL/CD), where DL is one of the most powerful ML. The proposed method consists of two phases: hyper-parameter optimization and DL model training and evaluation. A genetic algorithm (GA) is employed in the first phase to explore complex hyper-parameter combinations efficiently. Evaluation of the predicted CL/CD of the floats using the DL model resulted in a satisfactory R-squared of 0.9329 and the lowest mean squared error (MSE) of 0,001536. These results demonstrate the ability of DL model to predict the float's performance accurately and can facilitate further design optimization. Thus, the proposed method can offer a time-efficient and cost-effective solution for predicting float performance, aiding in optimizing floatplane designs and enhancing their functionalities. {\copyright} 2024, Institute of Advanced Engineering and Science. All rights reserved.},
+ author = {Fahmi, F. and Fajar, R. and Atmaja, S. T. and Rahuna, D.},
+ year = {2024},
+ title = {Deep learning-based prediction of float model performance in floatplanes: A case study on lift-to-drag coefficient ratio},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85204006371&doi=10.11591%2fijai.v13.i2.pp1969-1979&partnerID=40&md5=e3faf7677130b7df843013b54426dfe7},
+ keywords = {abstract ok;Computational design;Deep learning;Floatplane;Genetic algorithm;Hydrodynamic performance},
+ pages = {1967--1977},
+ volume = {13},
+ number = {2},
+ issn = {20894872},
+ journal = {IAES International Journal of Artificial Intelligence},
+ doi = {10.11591/ijai.v13.i2.pp1969-1979},
+ file = {Fahmi, Fajar et al. 2024 - Deep learning-based prediction of float:Attachments/Fahmi, Fajar et al. 2024 - Deep learning-based prediction of float.pdf:application/pdf}
+}
+
+
+@article{Ferguson.2024,
+ author = {Ferguson, Kevin and Gillman, Andrew and Hardin, James and Kara, Levent Burak},
+ year = {2024},
+ title = {Scalar Field Prediction on Meshes Using Interpolated Multiresolution Convolutional Neural Networks},
+ volume = {91},
+ number = {10},
+ issn = {0021-8936},
+ journal = {Journal of Applied Mechanics},
+ doi = {10.1115/1.4065782},
+ file = {Ferguson, Gillman et al. 2024 - Scalar Field Prediction on Meshes:Attachments/Ferguson, Gillman et al. 2024 - Scalar Field Prediction on Meshes.pdf:application/pdf}
+}
+
+
+@article{Hajializadeh.2024,
+ author = {Hajializadeh, Farshid and Ince, Ayhan},
+ year = {2024},
+ title = {Residual stress computation in direct metal deposition using integrated artificial neural networks and finite element analysis},
+ pages = {108471},
+ volume = {38},
+ issn = {23524928},
+ journal = {Materials Today Communications},
+ doi = {10.1016/j.mtcomm.2024.108471},
+ file = {Residual stress computation in direct metal deposition using integrated artificial neural networks and finite element analysis:Attachments/Residual stress computation in direct metal deposition using integrated artificial neural networks and finite element analysis.pdf:application/pdf}
+}
+
+
+@article{Holland.2024,
+ abstract = {Process planning is a crucial activity, connecting product development and manufacturing of fiber composite structures. Recently published Large Language Models (LLM) promise more flexible and autonomous workflows compared to state of the art automation methods. An autonomous agent for process planning of fiber composite structures is implemented with the LangChain framework, based on OpenAI's GPT-4 language model. The agent is equipped with deterministic tools which encode a-priori process planning knowledge. It can handle different process planning problems, such as cycle time estimation and resource allocation. Combinations thereof are solved through executing a multi-step solution path. {\copyright} 2024 The Authors},
+ author = {Holland, M. and Chaudhari, K.},
+ year = {2024},
+ title = {Large language model based agent for process planning of fiber composite structures},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85189751146&doi=10.1016%2fj.mfglet.2024.03.010&partnerID=40&md5=f870e16dde8a4e985516fccf6bd18935},
+ keywords = {abstract ok;Autonomous agents;Computational linguistics;Fiber composites;Fibers;Fibre composite structures;Fibre composites;generative AI;Langchain;Language model;Large language model;Model-based OPC;Openai;Planning agent;Planning agents;Process planning;Structure (composition);Work-flows},
+ pages = {100--103},
+ volume = {40},
+ issn = {22138463},
+ journal = {Manufacturing Letters},
+ doi = {10.1016/j.mfglet.2024.03.010},
+ file = {Large language model based agent for process planning of fiber composite structures:Attachments/Large language model based agent for process planning of fiber composite structures.pdf:application/pdf}
+}
+
+
+@article{Lyu.2024,
+ abstract = {To tackle the challenging near-wall turbulence modeling while preserving low computational cost, the near-wall nonoverlapping domain decomposition (NDD) method is proposed, incorporating the machine-learning technique. Using recently proposed implicit NDD (INDD), the solution can be calculated with a Robin-type (slip) wall boundary condition on a relatively coarse mesh and then corrected in the near-wall region at every iteration through an estimated turbulent viscosity profile obtained from a neural network. To maintain a reasonable complexity with acceptable accuracy, only the near-wall field properties, i.e., wall-normal distance, near-wall velocities, streamwise pressure gradients, and one near-wall scale parameter, are employed as the input features for the neural network. The benefit of incorporating machine learning is twofold. First, the near-wall turbulent viscosity is predicted more accurately than by the traditional algebraic functions used in the approximate approach. Second, similarly to the conventional NDD, the present simulations save one order of computational cost over the fully resolved one-block simulations. The accuracy and efficiency of the method are demonstrated on test cases with the k-ϵ model, including turbulent flows in a channel and an asymmetric diffuser at different Reynolds numbers. Results compare favorably with the one-block benchmark solutions and show a better agreement when compared with approximate NDD predictions. In the latter case, a variation of diffuser geometry is also considered to test the model performance on engineering design tasks with another turbulent model (i.e., Spalart-Allmaras), showing good generalization capability on different turbulence closures.  {\copyright} 2024 American Physical Society.},
+ author = {Lyu, S. and Kou, J. and Adams, N. A.},
+ year = {2024},
+ title = {Machine-learning-augmented domain decomposition method for near-wall turbulence modeling},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85189667520&doi=10.1103%2fPhysRevFluids.9.044603&partnerID=40&md5=29d4572a8df5c67e1644c550ca9cc769},
+ keywords = {abstract ok;Computational costs;Domain decomposition methods;Domain-decomposition methods;Iterative methods;Machine learning;Machine learning techniques;Machine-learning;Near-wall;Near-wall turbulence;Neural-networks;Nonoverlapping domain decomposition;Non-overlapping domain decomposition methods;Reynolds number;turbulence;Turbulent flow;Turbulent viscosity;Viscosity},
+ volume = {9},
+ number = {4},
+ issn = {2469990X},
+ journal = {Physical Review Fluids},
+ doi = {10.1103/PhysRevFluids.9.044603},
+ file = {Machine-learning-augmented domain decomposition method for near-wall turbulence modeling:Attachments/Machine-learning-augmented domain decomposition method for near-wall turbulence modeling.pdf:application/pdf}
+}
+
+
+@proceedings{Pierson.2024,
+ abstract = {ChatGPT, a generative AI large language model, has recently captured significant attention in both the computer science community and the broader public domain. It has demonstrated a wide range of capabilities, from answering simple questions to writing fully functional computer code. This study spotlights both the capabilities and limitations of ChatGPT when addressing engineering problems. The model's capacity to generate practical engineering tools is highlighted through an example of a prompt that leads to an interactive plotting tool, enabling the examination of the fluid boundary layer around a fan blade. Subsequently, the paper also uncovers potential pitfalls in ChatGPT's application, shown through an unsuccessful attempt to use ChatGPT to automate a process in Ansys Workbench through scripting. The research further investigates ChatGPT's proficiency in addressing inquiries and providing explanations about the functionalities of OpenMDAO, an open- source, multidisciplinary design, analysis, and optimization tool developed at NASA Glenn Research Center. Finally, an optimization methodology, developed with ChatGPT's help, is applied to the structural optimization of a fan blade. The developed optimization method utilizes T-Blade3 for geometry generation, Ansys Mechanical for meshing and finite element analysis, and sci-kit learn's MLPRegressor method to generate a trained neural network model of the design space. OpenMDAO is then used to find the optimal point within the design space. The outcome is a significant reduction in stress in the optimized model---less than one- fifth of the stress value in the baseline model. {\copyright} 2024 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.},
+ year = {2024},
+ title = {Usage of ChatGPT for Engineering Design and Analysis Tool Development},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85194052897&doi=10.2514%2f6.2024-0914&partnerID=40&md5=36ea9ea391a54f46adfb3e670dfb16c5},
+ keywords = {abstract ok;Analysis tools;Boundary layers;Design and analysis;Design spaces;Design tool;Engineering analysis;Engineering design;Fan blades;Language model;NASA;Neural network models;Science community;Structural optimization;Tool development},
+ publisher = {{American Institute of Aeronautics and Astronautics Inc, AIAA}},
+ isbn = {978-162410711-5},
+ editor = {Pierson, K. C. and Ha, M. J.},
+ doi = {10.2514/6.2024-0914},
+ file = {Usage of ChatGPT for Engineering Design and Analysis Tool Development:Attachments/Usage of ChatGPT for Engineering Design and Analysis Tool Development.pdf:application/pdf}
+}
+
+
+@article{Piotrowski.2024,
+ abstract = {The paper compares the effectiveness of selected machine learning methods as modelling tools supporting the selection of a packaging type in new product development process. The main goal of the developed model is to reduce the risk of failure in compatibility tests which are preformed to ensure safety, durability, and efficacy of the finished product for the entire period of its shelf life and consumer use. This kind of testing is mandatory inter alia for all aerosol packaging as any mechanical alterations of the packaging can cause the pressurized product to unseal and stop working properly. Moreover, aerosol products are classified as dangerous goods and any leaking of the product or propellent can be a serious hazard to the storage place, environment, and final consumer. Thus, basic compatibility observations of metal aerosol packaging (i.e. general corrosion, pitting corrosion, coating blistering or detinning) and different compatibility factors (e.g. formula ingredients, water contamination, pH, package material and coatings) were discussed. Artificial intelligence methods applied in the design process can reduce the lengthy testing time as well as developing costs and help benefit from the knowledge and experience of technologists stored in historical data in databases.},
+ author = {Piotrowski, N.},
+ year = {2024},
+ title = {Machine learning approach to packaging compatibility testing in the new product development process},
+ keywords = {abstract ok;Aerosols;Aluminum coatings;Aluminum corrosion;Atmospheric corrosion;Compatibility testing;Corrosion resistant coatings;Data visualization;Developed model;Digital storage;Durability;Machine learning;Machine learning approaches;Machine learning methods;Machine-learning;Modelling tools;New product development;New product development process;Packaging;Pitting;Smart products;Tool supporting;Water pollution;Well testing},
+ pages = {963--975},
+ volume = {35},
+ number = {3},
+ issn = {09565515},
+ journal = {Journal of Intelligent Manufacturing},
+ doi = {10.1007/s10845-023-02090-8},
+ file = {Piotrowski 2024 - Machine learning approach to packaging:Attachments/Piotrowski 2024 - Machine learning approach to packaging.pdf:application/pdf}
+}
+
+
+@article{Xu.2023,
+ abstract = {Combustible gas is widely used in industry and daily life but presents an unavoidable explosion hazard. Predicting explosion overpressure and guiding engineering design is an effective way to reduce the consequences of explosions. This paper presents a novel approach that integrates explosive theory and data science. Starting from the first principle, a dimensionless mathematical formula was constructed based on the explosive theory. Gas species, gas concentration, container parameters, and ignition position were fully considered by the formula, and built into data sets using machine learning techniques as characteristic parameters. The SVR algorithm, the BP algorithm, and the DNN algorithm all attest to the superiority. And the predictive physical consistency of this method has been proven. Simultaneously, the dataset constructed by this method effectively reduces the number of features. The PSO algorithm was used for parameter optimization based on the DNN algorithm guided by theory for building F-P (First principle) PSO-DNN Model. In the comparison of prediction results, the mean relative error of the F-P PSO-DNN model is 15{\%}, 19{\%} lower than that of the best performing Molkov model.},
+ author = {Xu, Q. M. and Chen, G. H. and Su, S. and Men, J. and Li, G. L.},
+ year = {2023},
+ title = {Prediction of venting gas explosion overpressure based on a combination of explosive theory and machine learning},
+ keywords = {abstract ok;Combustible gas;Daily lives;Explosion hazards;Explosion overpressure;Explosions;Explosive theory;Explosives;First principles;Forecasting;Gas explosion;Gas explosions;Gases;Machine learning;Machine-learning;Particle swarm optimization (PSO);Safety;Venting;Venting gas},
+ volume = {234},
+ issn = {09574174},
+ journal = {Expert Systems with Applications},
+ doi = {10.1016/j.eswa.2023.121044},
+ file = {Prediction of venting gas explosion overpressure based on a combination of explosive theory and machine learning:Attachments/Prediction of venting gas explosion overpressure based on a combination of explosive theory and machine learning.pdf:application/pdf}
+}
+
+
+@article{Qiu.2024,
+ abstract = {Due to the complex structure of the LFR fuel rod bundle, refined CFD simulation consumes significant computing resources and time, making it difficult to meet the immediate needs of engineering design and research. This paper introduces a method that integrates the sub-channel level thermal-hydraulic analysis code CorTAF-LBE with the BPNN algorithm to analyze the thermal-hydraulic phenomena within the LFR core. The method has been validated by refined simulation results of the THEADES test section, which indicate that the error is within an acceptable range. The feasibility of its application in LFR fuel assemblies was also evaluated. The flow characteristics and temperature distribution in unwrapped LFR rod bundles are investigated. Due to differences in fuel distribution and flow area, the temperature in the central channel is much higher than that in the side and trapezoidal channels. Three accident conditions, including inlet blockage, center blockage, and outlet blockage, were simulated. The corresponding peak temperatures of the fuel cladding were 670 K, 767 K, and 860 K, respectively, representing an increase of approximately 170 K compared to the nominal conditions. The analysis results effectively demonstrate the 3D temperature distribution of the fluid in the rod bundles, which is significant for reactor design and safety analysis of LFRs. {\copyright} 2024 Elsevier Masson SAS},
+ author = {Qiu, H. and Yu, J. and Wang, M. and Tian, W. and Su, G.},
+ year = {2024},
+ title = {Application of BPNN algorithm in thermal-hydraulic analysis of unwrapped LFR core},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85194390278&doi=10.1016%2fj.ijthermalsci.2024.109176&partnerID=40&md5=3a291cac58f93660b76faf50582ab5f8},
+ keywords = {abstract ok;CFD;CFD simulations;Complexes structure;Computational fluid dynamics;Computing time;Fuel rods;LFR;Machine learning;Machine-learning;Rod bundles;Temperature distribution;Thermal hydraulics;Thermal-hydraulic;Thermal-hydraulic analysis;Unwrapped fuel rod bundle},
+ volume = {203},
+ issn = {12900729},
+ journal = {International Journal of Thermal Sciences},
+ doi = {10.1016/j.ijthermalsci.2024.109176},
+ file = {Application of BPNN algorithm in thermal-hydraulic analysis of unwrapped LFR core:Attachments/Application of BPNN algorithm in thermal-hydraulic analysis of unwrapped LFR core.pdf:application/pdf}
+}
+
+
+@article{Yapici.2024,
+ abstract = {This study investigates the efficacy of machine learning techniques and correlation methods for predicting heat transfer performance in a dimpled tube under varying flow conditions, including the presence of nanoparticles. A comprehensive numerical analysis involving 120 cases was conducted to obtain Nusselt numbers and friction factors, considering different dimple depths and velocities for both pure water and water-Al2O3 nanofluid at 1{\%}, 2{\%}, and 3{\%} volume concentrations. Utilizing the data acquired from the numerical simulations, a correlation equation, SVM ANN architectures were developed. The predictive capabilities of the statistical approach, ANN, and SVM models for Nusselt number distribution and friction factor were meticulously assessed through mean average percentage error (MAPE) and correlation coefficients (R2). The research findings reveal that machine learning techniques offer a highly effective approach for accurately predicting heat transfer performance in a dimpled tube, with results closely aligned with Computational Fluid Dynamics (CFD) simulations. Particularly noteworthy is the superior performance of the ANN model, demonstrating the most precise predictions with an error rate of 2.54{\%} and an impressive R2 value of 0.9978 for Nusselt number prediction. In comparison, the regression model achieved an average error rate of 6.14{\%} with an R2 value of 0.8623, and the SVM model yielded an RMSE value of 2.984{\%} with an R2 value of 0.9154 for Nusselt number prediction. These outcomes underscore the ANN model's ability to effectively capture complex patterns within the data, resulting in highly accurate predictions. In conclusion, this research showcases the promising potential of machine learning techniques in accurately forecasting heat transfer performance in dimpled tubes. The developed ANN model exhibits notable superiority in predicting Nusselt numbers, making it a valuable tool for enhancing thermal system analyses and engineering design optimization.},
+ author = {Yapici, E. O. and Ayli, E. and T{\"u}rkoglu, H.},
+ year = {2024},
+ title = {Analysis of heat transfer enhancement of passive methods in tubes with machine learning},
+ keywords = {abstract ok;Alumina;Aluminum oxide;ANN;Computational analysis;Computational fluid dynamics;Correlation methods;Dimple;Dimpled tubes;dimples;Errors;Forecasting;Friction;Friction factors;Heat transfer coefficients;Heat transfer enhancement;Heat transfer performance;Learning algorithms;Machine learning;Machine learning techniques;nanofluid;Nanofluidics;Nanofluids;Nusselt number;Regression analysis;SVM model},
+ pages = {3613--3633},
+ volume = {238},
+ number = {8},
+ issn = {0954-4062},
+ journal = {PROCEEDINGS OF THE INSTITUTION OF MECHANICAL ENGINEERS PART C-JOURNAL OF MECHANICAL ENGINEERING SCIENCE},
+ doi = {10.1177/09544062231200959},
+ file = {Analysis of heat transfer enhancement of passive methods in tubes with machine learning:Attachments/Analysis of heat transfer enhancement of passive methods in tubes with machine learning.pdf:application/pdf}
+}
+
+
+@article{Zhu.2024,
+ abstract = {In the structural fatigue fields, such as aerospace, maritime, and civil engineering, the accurate construction of the Probability-Stress-Life (P-S-N) curve is crucial for preventing unexpected structural failures and is fundamental to the engineering design process. Conventional methods usually assume that the fatigue life distribution follows a normal or weibull distribution, which overlooks the differences of life distribution at different stress levels and introduces subjective errors. To address this issue, this paper proposes a new approach based a multi-layer perceptron model with maximum entropy algorithm (MPME) for probabilistic fatigue life prediction. During the derivation of life probability distribution function in this approach, the type not require any pre-assumption, thus effectively avoiding the introduction of subjective errors. Specifically, the dispersed information of fatigue life is quantified as various life distribution statistical features such as mean, variance, skewness, and kurtosis. Next, learn the continuous functional relationship between stress and these features using a multi-layer perceptron (MLP). Finally, the target probability distribution is derived using the maximum entropy algorithm, with the predicted distribution features obtained from the MLP serving as constraints for it. In addition, to ensure the consistency between the prediction of MLP and physical laws, we encode physical knowledge into the network loss to guide the updating of network parameters. Experimental results of two different material fatigue data demonstrate that, compared to traditional deterministic model-based methods and machine learning methods, the MPME in this paper can more accurately predict the probabilistic fatigue life. {\copyright} 2024 Elsevier Ltd},
+ author = {Zhu, Y. and Hu, Z. and Luo, J. and Song, P.},
+ year = {2024},
+ title = {Probabilistic fatigue life prediction using multi-layer perceptron with maximum entropy algorithm},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85197354406&doi=10.1016%2fj.ijfatigue.2024.108445&partnerID=40&md5=baa93b7897cd9c003b4dc303f8cc1768},
+ keywords = {abstract ok;Distribution functions;Failure (mechanical);Fatigue life distribution;Fatigue life prediction;Fatigue of materials;Forecasting;Fracture mechanics;Higher order statistics;Learning systems;Life distribution;Maximum entropy algorithms;Maximum entropy methods;Multi-layer perceptron;Multilayers perceptrons;Probabilistic fatigue;Probability fatigue life prediction;P-S-N curve;P-S-N curves;Stress-life;Structural fatigue;Weibull distribution},
+ volume = {187},
+ issn = {01421123},
+ journal = {International Journal of Fatigue},
+ doi = {10.1016/j.ijfatigue.2024.108445},
+ file = {Probabilistic fatigue life prediction using multi-layer perceptron with maximum entropy algorithm:Attachments/Probabilistic fatigue life prediction using multi-layer perceptron with maximum entropy algorithm.pdf:application/pdf}
+}
+
+
+@article{ArjomandiRad.2023,
+ author = {{Arjomandi Rad}, Mohammad and Cenanovic, Mirza and Salomonsson, Kent},
+ year = {2023},
+ title = {Image regression-based digital qualification for simulation-driven design processes, case study on curtain airbag},
+ pages = {1--22},
+ volume = {34},
+ number = {1},
+ issn = {0954-4828},
+ journal = {JOURNAL OF ENGINEERING DESIGN},
+ doi = {10.1080/09544828.2022.2164440},
+ file = {Arjomandi Rad, Cenanovic et al. 2023 - Image regression-based digital qualification:Attachments/Arjomandi Rad, Cenanovic et al. 2023 - Image regression-based digital qualification.pdf:application/pdf}
+}
+
+
+@article{BenBraiek.2023,
+ abstract = {In the context of aircraft system performance assessment, deep learning technologies allow us to quickly infer models from experimental measurements, with less detailed system knowledge than usually required by physics-based modeling. However, this inexpensive model development also comes with new challenges regarding model trustworthiness. This article presents a novel approach, physics-guided adversarial machine learning (ML), which improves the confidence over the physics consistency of the model. The approach performs, first, a physics-guided adversarial testing phase to search for test inputs revealing behavioral system inconsistencies, while still falling within the range of foreseeable operational conditions. Then, it proceeds with a physics-informed adversarial training to teach the model the system-related physics domain foreknowledge through iteratively reducing the unwanted output deviations on the previously uncovered counterexamples. Empirical evaluation on two aircraft system performance models shows the effectiveness of our adversarial ML approach in exposing physical inconsistencies of both the models and in improving their propensity to be consistent with physics domain knowledge.},
+ author = {{Ben Braiek}, H. and Reid, T. and Khomh, F.},
+ year = {2023},
+ title = {Physics-Guided Adversarial Machine Learning for Aircraft Systems Simulation},
+ keywords = {abstract ok;Adversarial machine learning;aircraft product development;Aircraft systems;Atmospheric modeling;Computational modelling;Data structures;Deep learning;deep learning (DL);Domain knowledge;Machine-learning;Personnel training;Search engines;Search-based software testing;search-based software testing (SBST);Sensitivity;Software testing;Training aircraft;Vehicle performance},
+ pages = {1161--1175},
+ volume = {72},
+ number = {3},
+ issn = {0018-9529},
+ journal = {IEEE TRANSACTIONS ON RELIABILITY},
+ doi = {10.1109/TR.2022.3196272},
+ file = {Ben Braiek, Reid et al. 2023 - Physics-Guided Adversarial Machine Learning:Attachments/Ben Braiek, Reid et al. 2023 - Physics-Guided Adversarial Machine Learning.pdf:application/pdf}
+}
+
+
+@article{EspinosaBarcenas.2023,
+ author = {{Espinosa Barcenas}, Oscar Ulises and {Quijada Pioquinto}, Jose Gabriel and Kurkina, Ekaterina and Lukyanov, Oleg},
+ year = {2023},
+ title = {Surrogate Aerodynamic Wing Modeling Based on a Multilayer Perceptron},
+ pages = {149},
+ volume = {10},
+ number = {2},
+ journal = {Aerospace},
+ doi = {10.3390/aerospace10020149},
+ file = {Espinosa Barcenas, Quijada Pioquinto et al. 2023 - Surrogate Aerodynamic Wing Modeling Based:Attachments/Espinosa Barcenas, Quijada Pioquinto et al. 2023 - Surrogate Aerodynamic Wing Modeling Based.pdf:application/pdf}
+}
+
+
+@inproceedings{Klinke.2023,
+ abstract = {With the increasing focus on the electrification of personal mobility, shortened development cycles with high cost pressure have to be managed quicker than ever in the Automotive Industry at minimal development cost. As a global automotive supplier, Mubea develops novel manufacturing technologies for new products in the electric powertrain. One example in the battery case of battery electric vehicles is the thermal management system of the traction batteries-a key factor in the battery case. As a new production technology for this product, the Mubea Rollbonding Process of aluminum offers several advantages, such as a high design freedom of the channel structure. For the product development-even though Mubea consequently makes use of automated simulation workflows-the turn-around time of a single CFD performance evaluation is still high. Therefore, our goal is to use all the historic simulation results from past projects to build a predictive model that allows the prediction of simulation results in real-time. However, given the high freedom in the design space allowed by the Rollbonding process, standard Machine Learning approaches, based on parameters, are not suitable. Hence, there is the need to directly process 3D geometries as such. Using historical engineering data, the unique deep learning approach of Neural Concept is able to predict unseen designs in seconds rather than hours, directly from the raw CAD file. This innovative approach allows Mubea to iterate faster and shorten the response time on customer enquiries. In conjunction with other design disciplines and manufacturing data, we look forward to have not only an AI-based design evaluation but also a tolerance-aware design optimization. In this paper we present an innovative strategy to utilize historic simulation results, and the corresponding 3D geometries, to predict the performance of new designs instantaneously. After explaining the underlying approach, first results are discussed. It can be shown that with as little as 100 training samples, this approach is able to deliver predictions with sufficient accuracy and over 90{\%} of lead-time reduction. Finally, we explain how Neural Concept and Mubea are collaborating to embed this approach in the Mubea design and simulation environment.},
+ author = {Klinke, N. and Buchkremer, S. and {Le Elend} and Kalaidov, M. and Tschammer, T.},
+ title = {AI-Based Performance Prediction and Its Application on the Design and Simulation of Cooling Plates for Battery Electric Vehicles},
+ keywords = {abstract ok},
+ pages = {207--218},
+ isbn = {2524-4787},
+ editor = {Droder, K. and Vietor, T.},
+ year = {2023},
+ doi = {10.1007/978-3-658-39928-3{\textunderscore }15},
+ file = {AI-Based Performance Prediction and Its Application on the Design and Simulation of Cooling Plates for Battery Electric Vehicles:Attachments/AI-Based Performance Prediction and Its Application on the Design and Simulation of Cooling Plates for Battery Electric Vehicles.pdf:application/pdf}
+}
+
+
+@proceedings{KrauseD..2023,
+ abstract = {Efficient characterization of fatigue behavior plays a crucial role in engineering design as it reduces the financial costs associated with expensive experimental tests. Existing methods for characterizing the fatigue behavior of fibre-reinforced plastics have proven inefficient due to the oversight of important design parameters, such as fibre orientations. To address this challenge, we propose an innovative approach based on Gaussian process regression. Our approach integrates previously unaccounted design parameters into the decision-making process, ensuring that optimal design points are selected for testing. By doing so, we maximize the gain of knowledge within the model, resulting in improved efficiency and accurate characterization of fatigue behavior. {\copyright} 2023 die Autoren.},
+ year = {2023},
+ title = {Using machine learning to increase efficiency in design of experiments for cyclic characterization of fibre-reinforced plastics},
+ url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85185831860&doi=10.35199%2fdfx2023.12&partnerID=40&md5=16fb786fb6756ce85ab5da6643752350},
+ keywords = {abstract ok;Characterization of fibers;Cost engineering;Decision making;Design of experiments;Design parameters;Efficiency;Elastomers;Engineering design;Experimental test;fatigue behavior;Fatigue behaviour;Fatigue of materials;Fiber reinforced plastics;Fibers;Fibre orientation;fibre-reinforced plastics;Financial costs;Gaussian distribution;Gaussian noise (electronic);Gaussian Processes;Innovative approaches;Machine learning;Machine-learning},
+ publisher = {{The Design Society}},
+ editor = {{Krause D.} and {Paetzold-Byhain K.} and {Wartzack S.} and Gadinger, M. and Witzgall, C. and Hufnagel, T. and Wartzack, S.},
+ doi = {10.35199/dfx2023.12},
+ file = {Krause D., Paetzold-Byhain K. et al. (Hg.) 2023 - Using machine learning to increase:Attachments/Krause D., Paetzold-Byhain K. et al. (Hg.) 2023 - Using machine learning to increase.pdf:application/pdf}
+}
+
+
+@article{Schlenz.2024,
+ abstract = {In recent years, the importance of digitalization techniques in the field of engineering has grown rapidly and led to many new applications, allowing analyzing, predicting, and reusing data. An essential type of engineering data is related to finite element models frequently used for simulation, where many small geometric changes occur during a product's development process. These modifications reflect the engineer's implicit knowledge, as they show the engineer's decisions during the development process. While numerous approaches exist to formalize geometric information as a whole, representing only the changes between finite element models, and thus engineers' knowledge, has not been investigated yet. In this work, a representation of geometric engineering changes between finite element models is presented, which is automatically learned from past engineering data. The representation is based on vectors between variants, whose dimensionality is reduced with a novel directed point cloud autoencoder. It is shown that this representation of change preserves similarities and differences between different geometric changes while being suitable as input for further machine learning applications, enabling further use of the acquired knowledge. To summarize, the objective is to learn from changes and their motivations in finished engineering developments and to transfer the insights to future design processes, i.e., to inspire engineers and make processes more efficient and goal-oriented.},
+ author = {Schlenz, S. and Mo{\"o}ssner, S. and Ek, C. H. and Duddeck, F.},
+ year = {2024},
+ title = {Representing engineering design changes in finite element models using directed point cloud autoencoders},
+ keywords = {abstract ok},
+ volume = {59},
+ issn = {1474-0346},
+ journal = {ADVANCED ENGINEERING INFORMATICS},
+ doi = {10.1016/j.aei.2023.102259},
+ file = {Representing engineering design changes in finite element models using directed point cloud autoencoders:Attachments/Representing engineering design changes in finite element models using directed point cloud autoencoders.pdf:application/pdf}
+}
+
+
+@article{Lolas.2008,
+ abstract = {Product development is an important but also dynamic, lengthy and risky phase in the life of a new product. The optimisation of the product development phase through extensive knowledge of the involved procedures is believed to reduce the risks and improve the final product quality. Artificial intelligence and expert systems have been used successfully in optimising the development phase of some new products as it will be demonstrated by the first sections of this publication.. This paper presents the first module of an expert system, a neural network architecture that could predict the reliability performance of a vehicle at later stages of its life by using only information from a first inspection after the vehicle's prototype production. The paper demonstrates how a tool like neural networks can be designed and optimised for use in reliability performance predictions. Also, this paper presents an optimisation methodology that enabled the neural network to deal with the limited amount of available training data, common during new product development, and to finally achieve acceptable prediction performance with small error. A case example is presented to demonstrate the methodology. (c) 2007 Elsevier Ltd. All rights reserved.},
+ author = {Lolas, S. and Olatunbosun, O. A.},
+ year = {2008},
+ title = {Prediction of vehicle reliability performance using artificial neural networks},
+ keywords = {abstract ok;Expert systems;Knowledge;Neural network architecture;neural networks;Optimization;Product development;Prototype production;Reliability prediction;Reliability theory;Risk assessment},
+ pages = {2360--2369},
+ volume = {34},
+ number = {4},
+ issn = {09574174},
+ journal = {Expert Systems with Applications},
+ doi = {10.1016/j.eswa.2007.03.014},
+ file = {Prediction of vehicle reliability performance using artificial neural networks:Attachments/Prediction of vehicle reliability performance using artificial neural networks.pdf:application/pdf}
+}
+
+
